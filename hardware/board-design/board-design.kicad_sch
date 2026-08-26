@@ -2,9 +2,56 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid bd5d7a3e-3306-4abd-ba38-3ca87df9a9fb)
+	(uuid "bd5d7a3e-3306-4abd-ba38-3ca87df9a9fb")
 	(paper "A4")
 	(lib_symbols)
+	(sheet
+		(at 114.3 114.3)
+		(size 25.4 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "546e8460-8581-4274-bc8e-d871e6a589aa")
+		(property "Sheetname" "DC-DC-Buck-Converter"
+			(at 114.3 113.5884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "DC-DC-Buck-Converter.kicad_sch"
+			(at 114.3 140.2846 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "board-design"
+				(path "/bd5d7a3e-3306-4abd-ba38-3ca87df9a9fb"
+					(page "2")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")
