@@ -1964,7 +1964,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-7343-30_AVX-N_HandSolder"
 			(at 143.2052 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -2045,7 +2045,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-7343-30_AVX-N_HandSolder"
 			(at 102.5652 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -2124,7 +2124,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SON:VSONP-8-1EP_5x6_P1.27mm"
 			(at 132.08 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -2524,7 +2524,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-7343-30_AVX-N_HandSolder"
 			(at 117.8052 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -2684,7 +2684,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 149.5552 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -2765,7 +2765,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 93.6752 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -3083,7 +3083,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 111.4552 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -3163,7 +3163,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SON:VSONP-8-1EP_5x6_P1.27mm"
 			(at 119.38 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -3406,7 +3406,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 118.11 94.2848 0)
 			(hide yes)
 			(show_name no)
