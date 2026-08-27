@@ -161,7 +161,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x01")
-		(at 109.22 127 180)
+		(at 109.22 119.38 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -171,7 +171,7 @@
 		(dnp no)
 		(uuid "4bbf0bd6-f8f5-40a6-bc67-a4f093cd9036")
 		(property "Reference" "J2"
-			(at 105.918 127.254 0)
+			(at 105.918 119.634 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -181,7 +181,7 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x01"
-			(at 102.108 130.048 0)
+			(at 102.108 122.428 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -191,7 +191,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 109.22 127 0)
+			(at 109.22 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -202,7 +202,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 109.22 127 0)
+			(at 109.22 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -213,7 +213,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 109.22 127 0)
+			(at 109.22 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -314,6 +314,82 @@
 			)
 		)
 	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x01")
+		(at 109.22 133.35 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e4f75b07-783b-470a-a193-017e369a4523")
+		(property "Reference" "J3"
+			(at 105.918 133.604 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Screw_Terminal_01x01"
+			(at 102.108 136.398 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 109.22 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 109.22 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "83c28f53-889c-47ec-a191-987d0087e326")
+		)
+		(instances
+			(project "board-design"
+				(path "/bd5d7a3e-3306-4abd-ba38-3ca87df9a9fb"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(sheet
 		(at 114.3 114.3)
 		(size 25.4 25.4)
@@ -354,7 +430,7 @@
 			)
 		)
 		(pin "V_INPUT" input
-			(at 114.3 127 180)
+			(at 114.3 119.38 180)
 			(uuid "66611aa1-097f-480c-8ba9-52fe237cd433")
 			(effects
 				(font
@@ -371,6 +447,16 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "VDD" input
+			(at 114.3 133.35 180)
+			(uuid "82539c5a-f3da-4cde-a95f-8abbb03eddf5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
