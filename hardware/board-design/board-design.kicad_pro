@@ -599,21 +599,21 @@
           "group_by": false,
           "label": "PART NUMBER",
           "name": "PART NUMBER",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
           "label": "Manufacturer",
           "name": "Manufacturer",
-          "show": false
+          "show": true
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
       "name": "",
-      "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_asc": false,
+      "sort_field": "PART NUMBER"
     },
     "bus_aliases": {},
     "connection_grid_size": 50.0,
@@ -656,7 +656,7 @@
         "uuid": "bd5d7a3e-3306-4abd-ba38-3ca87df9a9fb"
       }
     ],
-    "used_designators": "",
+    "used_designators": "#FLG1,J1,#PWR1",
     "variants": []
   },
   "sheets": [
