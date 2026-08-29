@@ -1032,8 +1032,8 @@
 		)
 	)
 	(rectangle
-		(start 86.36 76.2)
-		(end 170.18 118.11)
+		(start 82.55 74.93)
+		(end 169.545 120.015)
 		(stroke
 			(width 0)
 			(type default)
@@ -1041,11 +1041,11 @@
 		(fill
 			(type none)
 		)
-		(uuid "c6e54748-78e8-49df-8668-83b681e9211b")
+		(uuid "a54dd284-6da1-4379-835a-cb3d9a1ea73c")
 	)
 	(text "Buck Converter"
 		(exclude_from_sim no)
-		(at 162.56 117.094 0)
+		(at 90.424 76.962 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1066,6 +1066,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0b02ab35-ee73-49b1-a601-b80ce381b455")
+	)
+	(junction
+		(at 95.25 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0c2f133d-254e-4284-abd1-1f4252bc999c")
 	)
 	(junction
 		(at 142.24 95.25)
@@ -1104,16 +1110,16 @@
 		(uuid "71aa2802-8136-4d47-af45-30fb6dd8e8d7")
 	)
 	(junction
+		(at 95.25 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9e13ff5b-e68f-410b-85bb-8a06d5045ea1")
+	)
+	(junction
 		(at 158.75 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b94e81ed-176f-4cdd-a93d-0a773159e7f9")
-	)
-	(junction
-		(at 101.6 102.87)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c5283341-1cd0-4a6b-8f68-92b55f524142")
 	)
 	(junction
 		(at 142.24 83.82)
@@ -1126,12 +1132,18 @@
 		(uuid "1b11caf1-17bf-476c-914f-9415af6c2109")
 	)
 	(no_connect
-		(at 92.71 102.87)
-		(uuid "3c149ce5-5dd6-4712-bb7b-db3016a3eb8e")
-	)
-	(no_connect
 		(at 118.11 110.49)
 		(uuid "d782a4a4-d025-460c-b822-d41ff7e977ff")
+	)
+	(wire
+		(pts
+			(xy 95.25 106.68) (xy 95.25 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00931450-141d-4b95-b72c-c0f17938e924")
 	)
 	(wire
 		(pts
@@ -1142,16 +1154,6 @@
 			(type default)
 		)
 		(uuid "02746ceb-4c6d-4175-a77b-379babffa317")
-	)
-	(wire
-		(pts
-			(xy 101.6 102.87) (xy 110.49 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "03b9c202-1ed1-4d02-bff2-6d26567e1c47")
 	)
 	(wire
 		(pts
@@ -1205,6 +1207,16 @@
 	)
 	(wire
 		(pts
+			(xy 104.14 105.41) (xy 95.25 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2fc761f3-508e-4025-a600-c18c1cee2a2f")
+	)
+	(wire
+		(pts
 			(xy 121.92 92.71) (xy 129.54 92.71)
 		)
 		(stroke
@@ -1232,6 +1244,26 @@
 			(type default)
 		)
 		(uuid "36a120bb-5edf-468f-b893-6e14313b1374")
+	)
+	(wire
+		(pts
+			(xy 102.87 100.33) (xy 104.14 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "377800df-7f86-4250-91ac-60a6de62cd9a")
+	)
+	(wire
+		(pts
+			(xy 110.49 102.87) (xy 109.22 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38d88f33-be13-48fc-aad5-5a9af1299240")
 	)
 	(wire
 		(pts
@@ -1285,16 +1317,6 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 105.41) (xy 118.11 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5d500800-1a2b-42dd-96bf-7b5d4cf235fd")
-	)
-	(wire
-		(pts
 			(xy 127 81.28) (xy 127 83.82)
 		)
 		(stroke
@@ -1315,13 +1337,13 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 102.87) (xy 101.6 102.87)
+			(xy 104.14 100.33) (xy 104.14 105.41)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7ce02ceb-ec90-4c6f-b68e-e9900e98b106")
+		(uuid "7ac7ef23-da2a-44ac-8ad9-3a7696c50309")
 	)
 	(wire
 		(pts
@@ -1375,6 +1397,16 @@
 	)
 	(wire
 		(pts
+			(xy 88.9 100.33) (xy 90.17 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8df0e2af-42a5-4afe-a55c-6c0678d157bd")
+	)
+	(wire
+		(pts
 			(xy 121.92 92.71) (xy 121.92 91.44)
 		)
 		(stroke
@@ -1382,6 +1414,26 @@
 			(type default)
 		)
 		(uuid "9295aed5-abdc-4d7f-9b91-ca4c5807d310")
+	)
+	(wire
+		(pts
+			(xy 95.25 110.49) (xy 95.25 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95238989-f454-4ab0-bbdf-434de1c3da43")
+	)
+	(wire
+		(pts
+			(xy 95.25 105.41) (xy 95.25 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "982e5174-ef6f-4a13-89ba-463241d1299f")
 	)
 	(wire
 		(pts
@@ -1425,6 +1477,16 @@
 	)
 	(wire
 		(pts
+			(xy 109.22 106.68) (xy 95.25 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b197f8a9-9c59-4241-ba09-761ff6280c6e")
+	)
+	(wire
+		(pts
 			(xy 105.41 92.71) (xy 121.92 92.71)
 		)
 		(stroke
@@ -1465,6 +1527,16 @@
 	)
 	(wire
 		(pts
+			(xy 109.22 102.87) (xy 109.22 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f16d231a-7a59-4cb8-bac3-3e878f92a693")
+	)
+	(wire
+		(pts
 			(xy 139.7 95.25) (xy 142.24 95.25)
 		)
 		(stroke
@@ -1472,16 +1544,6 @@
 			(type default)
 		)
 		(uuid "f5351c71-862d-49b6-b9cb-344dd88de4d2")
-	)
-	(label "GND"
-		(at 101.6 110.49 270)
-		(effects
-			(font
-				(size 0.635 0.635)
-			)
-			(justify right bottom)
-		)
-		(uuid "25a2751b-b63d-4a3c-b382-7b68b00621f0")
 	)
 	(label "GND"
 		(at 158.75 99.06 270)
@@ -1504,6 +1566,16 @@
 		(uuid "403d7375-a05d-4fe8-bf48-19d0057f9499")
 	)
 	(label "GND"
+		(at 102.87 115.57 0)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+			(justify left bottom)
+		)
+		(uuid "49814712-0b9d-4fef-be9d-7be9fc997a74")
+	)
+	(label "GND"
 		(at 114.3 111.76 0)
 		(effects
 			(font
@@ -1522,16 +1594,6 @@
 			(justify left bottom)
 		)
 		(uuid "b284d9b5-d1ff-4b79-9adc-6d4b5bbea531")
-	)
-	(label "GND"
-		(at 92.71 110.49 270)
-		(effects
-			(font
-				(size 0.635 0.635)
-			)
-			(justify right bottom)
-		)
-		(uuid "b2f7e8e5-f444-434c-90da-0ec4c2d02ca3")
 	)
 	(label "GND"
 		(at 148.59 91.44 270)
@@ -1554,7 +1616,17 @@
 		(uuid "b80dcb28-1b5f-4c33-9def-d9f179400f40")
 	)
 	(label "GND"
-		(at 154.94 111.76 180)
+		(at 102.87 110.49 0)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+			(justify left bottom)
+		)
+		(uuid "c0be3e00-c013-4ee4-a8dc-873a68744650")
+	)
+	(label "GND"
+		(at 165.1 118.11 180)
 		(effects
 			(font
 				(size 0.635 0.635)
@@ -1564,7 +1636,7 @@
 		(uuid "c218884f-b70f-4006-928f-e051ef7824a3")
 	)
 	(label "GND"
-		(at 118.11 104.14 0)
+		(at 118.11 105.41 0)
 		(effects
 			(font
 				(size 0.635 0.635)
@@ -1586,7 +1658,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape output)
-		(at 154.94 111.76 0)
+		(at 165.1 118.11 0)
 		(effects
 			(font
 				(size 0.635 0.635)
@@ -1617,6 +1689,17 @@
 		)
 		(uuid "983a36ec-8fdd-4c8d-b460-36970e8b5aff")
 	)
+	(hierarchical_label "V_INPUT"
+		(shape input)
+		(at 88.9 100.33 180)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+			(justify right)
+		)
+		(uuid "985a2d5f-340f-4e44-965c-74dc9d1e2636")
+	)
 	(symbol
 		(lib_id "Driver_FET:Custom-GateDRVR")
 		(at 114.3 106.68 0)
@@ -1629,22 +1712,22 @@
 		(dnp no)
 		(uuid "2806ee84-aca0-441d-bee1-adada2d7646a")
 		(property "Reference" "U1"
-			(at 114.3 115.062 0)
+			(at 114.3 100.838 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.889 0.889)
 				)
 			)
 		)
 		(property "Value" "Gate Driver"
-			(at 114.554 116.84 0)
+			(at 114.808 114.3 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.889 0.889)
 				)
 			)
 		)
@@ -1750,24 +1833,24 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2d923dca-6d63-44bf-8a99-a4d50f18ccff")
-		(property "Reference" "C2"
-			(at 142.748 89.662 0)
+		(property "Reference" "C_BP_2"
+			(at 142.494 89.662 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.889 0.889)
 				)
 				(justify left)
 			)
 		)
 		(property "Value" "1OuF"
-			(at 142.494 91.694 0)
+			(at 142.748 85.852 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.889 0.889)
 				)
 				(justify left)
 			)
@@ -1836,110 +1919,7 @@
 		(instances
 			(project "board-design"
 				(path "/bd5d7a3e-3306-4abd-ba38-3ca87df9a9fb/546e8460-8581-4274-bc8e-d871e6a589aa"
-					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 101.6 106.68 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "3922d223-e468-49fa-9cf0-b0889a6c5424")
-		(property "Reference" "C3"
-			(at 96.266 106.934 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uF"
-			(at 96.266 109.474 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Custom-lib:CAPC6153X390N"
-			(at 102.5652 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "kicad-embed://KRM55_25V-100V_E.pdf"
-			(at 101.6 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 101.6 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Murata"
-			(at 101.6 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PART NUMBER" "KRM55QR72A106KH01L"
-			(at 101.6 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "78138272-a115-48f6-beb3-7fa7bd65f0ff")
-		)
-		(pin "1"
-			(uuid "b5ef4dbc-bbda-41cd-8bea-48bad5eb2ad0")
-		)
-		(instances
-			(project "board-design"
-				(path "/bd5d7a3e-3306-4abd-ba38-3ca87df9a9fb/546e8460-8581-4274-bc8e-d871e6a589aa"
-					(reference "C3")
+					(reference "C_BP_2")
 					(unit 1)
 				)
 			)
@@ -1962,7 +1942,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.889 0.889)
 				)
 			)
 		)
@@ -1972,7 +1952,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.889 0.889)
 				)
 			)
 		)
@@ -2066,17 +2046,17 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.889 0.889)
 				)
 			)
 		)
 		(property "Value" "47k"
-			(at 163.83 87.122 0)
+			(at 158.75 87.884 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.889 0.889)
 				)
 			)
 		)
@@ -2167,17 +2147,17 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.889 0.889)
 				)
 			)
 		)
 		(property "Value" "100k"
-			(at 151.638 100.33 0)
+			(at 146.05 99.06 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.889 0.889)
 				)
 			)
 		)
@@ -2262,24 +2242,24 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "71f8ecaf-e6fb-457a-80f6-45fd162c6cc0")
-		(property "Reference" "C1"
-			(at 114.046 85.598 0)
+		(property "Reference" "C_BP_3"
+			(at 111.506 85.852 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.889 0.889)
 				)
 				(justify left)
 			)
 		)
 		(property "Value" "10uF"
-			(at 112.014 89.916 0)
+			(at 113.03 89.662 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.889 0.889)
 				)
 				(justify left)
 			)
@@ -2348,7 +2328,7 @@
 		(instances
 			(project "board-design"
 				(path "/bd5d7a3e-3306-4abd-ba38-3ca87df9a9fb/546e8460-8581-4274-bc8e-d871e6a589aa"
-					(reference "C1")
+					(reference "C_BP_3")
 					(unit 1)
 				)
 			)
@@ -2371,17 +2351,17 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.889 0.889)
 				)
 			)
 		)
 		(property "Value" "10"
-			(at 127.254 106.934 90)
+			(at 127 102.87 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.889 0.889)
 				)
 			)
 		)
@@ -2457,6 +2437,109 @@
 	)
 	(symbol
 		(lib_id "Device:C")
+		(at 99.06 115.57 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7c39e14b-e257-4b83-8532-c744bc405985")
+		(property "Reference" "C_BP_5"
+			(at 105.156 113.792 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 103.632 117.094 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Custom-lib:CAPC6153X390N"
+			(at 102.87 114.6048 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "kicad-embed://KRM55_25V-100V_E.pdf"
+			(at 99.06 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 99.06 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 99.06 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PART NUMBER" "KRM55QR72A106KH01L"
+			(at 99.06 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "457849ff-3218-4c08-a848-9c66ed93c0f8")
+		)
+		(pin "1"
+			(uuid "0cbe49d9-18b5-4278-8a53-c22bcb85d87a")
+		)
+		(instances
+			(project "board-design"
+				(path "/bd5d7a3e-3306-4abd-ba38-3ca87df9a9fb/546e8460-8581-4274-bc8e-d871e6a589aa"
+					(reference "C_BP_5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
 		(at 148.59 87.63 0)
 		(unit 1)
 		(body_style 1)
@@ -2466,24 +2549,24 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "92f368de-b37c-4545-8b96-d52d817ab2e8")
-		(property "Reference" "C6"
-			(at 150.114 91.948 0)
+		(property "Reference" "C_BP_1"
+			(at 148.844 89.662 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.889 0.889)
 				)
 				(justify left)
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 148.844 89.916 0)
+			(at 149.098 85.852 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.889 0.889)
 				)
 				(justify left)
 			)
@@ -2552,7 +2635,7 @@
 		(instances
 			(project "board-design"
 				(path "/bd5d7a3e-3306-4abd-ba38-3ca87df9a9fb/546e8460-8581-4274-bc8e-d871e6a589aa"
-					(reference "C6")
+					(reference "C_BP_1")
 					(unit 1)
 				)
 			)
@@ -2560,7 +2643,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 92.71 106.68 0)
+		(at 99.06 110.49 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2568,31 +2651,31 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "9f20bf16-c5c1-401e-8488-e11248f18e49")
-		(property "Reference" "C5"
-			(at 87.376 106.934 0)
+		(uuid "9ac78944-9e3d-4121-8358-f185530d5d96")
+		(property "Reference" "C_BP_6"
+			(at 105.156 108.712 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.889 0.889)
 				)
 				(justify left)
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 87.376 109.474 0)
+			(at 104.14 111.506 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.889 0.889)
 				)
 				(justify left)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 93.6752 110.49 0)
+			(at 102.87 109.5248 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2603,7 +2686,7 @@
 			)
 		)
 		(property "Datasheet" "kicad-embed://Chip_Multilayer_CAT2021_MLCC.pdf"
-			(at 92.71 106.68 0)
+			(at 99.06 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2614,7 +2697,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 92.71 106.68 0)
+			(at 99.06 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2625,7 +2708,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata"
-			(at 92.71 106.68 0)
+			(at 99.06 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2636,7 +2719,7 @@
 			)
 		)
 		(property "PART NUMBER" "GRM188R72A104KA35D"
-			(at 92.71 106.68 0)
+			(at 99.06 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2647,15 +2730,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "5a1b17b2-84c2-49d6-ba26-cc8f678103c4")
+			(uuid "6c0f4470-bd9d-4bed-86f2-984c60e6f753")
 		)
 		(pin "1"
-			(uuid "ebfd99a2-2444-413d-bedb-6195e1e61146")
+			(uuid "48305e19-dc9b-4dd2-8f1a-28d39f5b019e")
 		)
 		(instances
 			(project "board-design"
 				(path "/bd5d7a3e-3306-4abd-ba38-3ca87df9a9fb/546e8460-8581-4274-bc8e-d871e6a589aa"
-					(reference "C5")
+					(reference "C_BP_6")
 					(unit 1)
 				)
 			)
@@ -2673,22 +2756,22 @@
 		(dnp no)
 		(uuid "a1e43f80-f802-45fe-8838-a0b2a613d396")
 		(property "Reference" "R_GATE_1"
-			(at 100.838 92.71 0)
+			(at 107.188 96.774 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.635 0.635)
 				)
 			)
 		)
 		(property "Value" "10"
-			(at 100.838 94.742 0)
+			(at 105.41 96.52 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.889 0.889)
 				)
 			)
 		)
@@ -2774,22 +2857,22 @@
 		(dnp no)
 		(uuid "aebf3d24-d4ac-4ff0-8752-f9e655964064")
 		(property "Reference" "R_GATE_3"
-			(at 135.128 88.138 0)
+			(at 132.08 88.9 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.889 0.889)
 				)
 			)
 		)
 		(property "Value" "100k"
-			(at 135.128 90.17 0)
+			(at 129.54 88.9 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.889 0.889)
 				)
 			)
 		)
@@ -2880,17 +2963,17 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.889 0.889)
 				)
 			)
 		)
 		(property "Value" "10k"
-			(at 164.084 94.488 0)
+			(at 158.75 95.25 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.889 0.889)
 				)
 			)
 		)
@@ -2975,24 +3058,24 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ce10e287-4824-4e59-8741-3f95c6f44fa8")
-		(property "Reference" "C4"
-			(at 107.696 85.598 0)
+		(property "Reference" "C_BP_4"
+			(at 105.156 85.598 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.889 0.889)
 				)
 				(justify left)
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 104.902 89.916 0)
+			(at 106.172 89.662 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.889 0.889)
 				)
 				(justify left)
 			)
@@ -3061,7 +3144,7 @@
 		(instances
 			(project "board-design"
 				(path "/bd5d7a3e-3306-4abd-ba38-3ca87df9a9fb/546e8460-8581-4274-bc8e-d871e6a589aa"
-					(reference "C4")
+					(reference "C_BP_4")
 					(unit 1)
 				)
 			)
@@ -3085,7 +3168,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.889 0.889)
 				)
 			)
 		)
@@ -3095,7 +3178,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.889 0.889)
 				)
 			)
 		)
@@ -3190,7 +3273,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.889 0.889)
 				)
 			)
 		)
@@ -3200,7 +3283,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.889 0.889)
 				)
 			)
 		)
@@ -3286,12 +3369,12 @@
 		(dnp no)
 		(uuid "f9d9bf4d-af7d-4cea-87b9-0d8b0a98494a")
 		(property "Reference" "C_BOOTSTRAP_1"
-			(at 122.428 98.806 90)
+			(at 119.634 98.806 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.889 0.889)
 				)
 				(justify left)
 			)
@@ -3302,7 +3385,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.889 0.889)
 				)
 				(justify left)
 			)
@@ -3373,6 +3456,71 @@
 				(path "/bd5d7a3e-3306-4abd-ba38-3ca87df9a9fb/546e8460-8581-4274-bc8e-d871e6a589aa"
 					(reference "C_BOOTSTRAP_1")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 90.17 98.425)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "207d88af-971e-4815-bc86-0eae21ccbe4d")
+		(property "Sheetname" "Regulator"
+			(at 92.964 103.886 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "regulator.kicad_sch"
+			(at 87.63 96.774 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+				(justify left top)
+			)
+		)
+		(pin "INPUT" input
+			(at 90.17 100.33 180)
+			(uuid "ad05346d-a220-44c5-a651-cf40d424dc4c")
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left)
+			)
+		)
+		(pin "OUT" output
+			(at 102.87 100.33 0)
+			(uuid "64d9f85d-fcbd-4637-9f85-75a6243772ca")
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "board-design"
+				(path "/bd5d7a3e-3306-4abd-ba38-3ca87df9a9fb/546e8460-8581-4274-bc8e-d871e6a589aa"
+					(page "3")
 				)
 			)
 		)

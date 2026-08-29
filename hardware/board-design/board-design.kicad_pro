@@ -656,7 +656,7 @@
         "uuid": "bd5d7a3e-3306-4abd-ba38-3ca87df9a9fb"
       }
     ],
-    "used_designators": "#FLG1,J1,#PWR1",
+    "used_designators": "U2,C3,C5,C7-11,R_SET_1-2,R_LOAD_3,R1",
     "variants": []
   },
   "sheets": [
@@ -667,6 +667,10 @@
     [
       "546e8460-8581-4274-bc8e-d871e6a589aa",
       "DC-DC-Buck-Converter"
+    ],
+    [
+      "207d88af-971e-4815-bc86-0eae21ccbe4d",
+      "Regulator"
     ]
   ],
   "text_variables": {},
