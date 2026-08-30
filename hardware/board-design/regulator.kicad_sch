@@ -1220,6 +1220,28 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Analog Devices"
+			(at 149.86 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PART NUMBER" "MAX5084ATT+T"
+			(at 149.86 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "c737b45e-eb31-4049-b2f1-1cd1ea647743")
 		)
@@ -1489,7 +1511,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 151.13 126.238 90)
 			(hide yes)
 			(show_name no)
@@ -1500,7 +1522,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "kicad-embed://dcrcwe3.pdf"
 			(at 151.13 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -1513,6 +1535,28 @@
 		)
 		(property "Description" "Resistor"
 			(at 151.13 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Vishay"
+			(at 151.13 124.46 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PART NUMBER" "CRCW060371K5FKEA"
+			(at 151.13 124.46 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
