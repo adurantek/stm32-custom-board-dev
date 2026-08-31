@@ -418,28 +418,36 @@
 		)
 	)
 	(junction
-		(at 110.49 129.54)
+		(at 119.38 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2c3db874-933b-49b9-add7-35ce9c485a88")
+	)
+	(junction
+		(at 148.59 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "44849088-095c-4d63-ac2c-afc7d5e7f1f9")
+	)
+	(junction
+		(at 116.84 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "56882f24-8eee-45a2-8a17-8cce3bed4764")
 	)
 	(junction
-		(at 113.03 140.97)
+		(at 133.35 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "f5e03542-db59-4c40-b87f-8ab90140f6ed")
+		(uuid "d06878ff-1f7f-4283-b48a-3b999d2bedcc")
 	)
 	(no_connect
-		(at 139.7 121.92)
+		(at 146.05 99.06)
 		(uuid "0fd5c6d2-73b9-4811-a077-efea8d452316")
-	)
-	(no_connect
-		(at 139.7 130.81)
-		(uuid "da9a6cad-30a0-4bd0-9ab9-b8ad5a99700e")
 	)
 	(wire
 		(pts
-			(xy 113.03 140.97) (xy 127 140.97)
+			(xy 119.38 118.11) (xy 133.35 118.11)
 		)
 		(stroke
 			(width 0)
@@ -449,7 +457,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 140.97) (xy 127 139.7)
+			(xy 133.35 118.11) (xy 133.35 116.84)
 		)
 		(stroke
 			(width 0)
@@ -459,7 +467,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 127) (xy 114.3 127)
+			(xy 116.84 104.14) (xy 120.65 104.14)
 		)
 		(stroke
 			(width 0)
@@ -469,7 +477,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 129.54) (xy 113.03 129.54)
+			(xy 116.84 106.68) (xy 119.38 106.68)
 		)
 		(stroke
 			(width 0)
@@ -479,7 +487,17 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 129.54) (xy 113.03 140.97)
+			(xy 146.05 107.95) (xy 148.59 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6da23823-ace1-4c8e-8a53-2ba201a7f36f")
+	)
+	(wire
+		(pts
+			(xy 119.38 106.68) (xy 119.38 118.11)
 		)
 		(stroke
 			(width 0)
@@ -487,9 +505,119 @@
 		)
 		(uuid "9471faf6-4e78-4060-9f10-38c7bb422add")
 	)
+	(wire
+		(pts
+			(xy 133.35 118.11) (xy 165.1 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a45a4dce-2a84-4420-af6b-a327c5559967")
+	)
+	(wire
+		(pts
+			(xy 165.1 118.11) (xy 165.1 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5afdea8-d0d9-410a-a562-7288d7d56555")
+	)
+	(wire
+		(pts
+			(xy 148.59 107.95) (xy 152.4 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5bfeb0c-76e0-4653-b374-bbe0b8b6cbff")
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 119.38 118.11 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "10268801-dbce-4440-b705-4b01098fe60d")
+		(property "Reference" "#FLG01"
+			(at 117.475 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 115.57 118.1101 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 119.38 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 119.38 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3b7ee5f8-b276-4c31-a037-591538140045")
+		)
+		(instances
+			(project "board-design"
+				(path "/bd5d7a3e-3306-4abd-ba38-3ca87df9a9fb"
+					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 105.41 127 0)
+		(at 111.76 104.14 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -499,7 +627,7 @@
 		(dnp no)
 		(uuid "184cce59-291e-4a7d-8ca0-fd249b257fb0")
 		(property "Reference" "J1"
-			(at 101.6 128.27 90)
+			(at 107.95 105.41 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -509,7 +637,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Pin"
-			(at 104.14 128.27 90)
+			(at 110.49 105.41 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -519,7 +647,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0212_1x02-1MP_P3.00mm_Horizontal"
-			(at 105.41 127 0)
+			(at 111.76 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -530,7 +658,7 @@
 			)
 		)
 		(property "Datasheet" "kicad-embed://PS-43650.pdf"
-			(at 105.41 127 0)
+			(at 111.76 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -541,7 +669,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 105.41 127 0)
+			(at 111.76 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -552,7 +680,7 @@
 			)
 		)
 		(property "Manufacturer" "Molex"
-			(at 105.41 127 90)
+			(at 111.76 104.14 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -563,7 +691,7 @@
 			)
 		)
 		(property "PART NUMBER" "0436500212"
-			(at 105.41 127 90)
+			(at 111.76 104.14 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -590,7 +718,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 110.49 129.54 0)
+		(at 116.84 106.68 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -601,7 +729,7 @@
 		(fields_autoplaced yes)
 		(uuid "6358bbc0-c461-4511-a15f-85d87f15c42a")
 		(property "Reference" "#PWR01"
-			(at 110.49 135.89 0)
+			(at 116.84 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -612,7 +740,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 110.49 134.62 0)
+			(at 116.84 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -623,7 +751,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 110.49 129.54 0)
+			(at 116.84 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -634,7 +762,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 110.49 129.54 0)
+			(at 116.84 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -645,7 +773,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 110.49 129.54 0)
+			(at 116.84 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -669,7 +797,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 113.03 140.97 90)
+		(at 148.59 107.95 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -678,9 +806,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "f445b250-4f1b-4d77-b408-3896280be79c")
-		(property "Reference" "#FLG01"
-			(at 111.125 140.97 0)
+		(uuid "e8d7732e-9ea0-4338-86c5-18a6cf572ec5")
+		(property "Reference" "#FLG03"
+			(at 148.59 106.045 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -691,7 +819,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 109.22 140.9701 90)
+			(at 148.5899 104.14 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -703,7 +831,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 113.03 140.97 0)
+			(at 148.59 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -714,7 +842,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 113.03 140.97 0)
+			(at 148.59 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -725,7 +853,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 113.03 140.97 0)
+			(at 148.59 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -736,19 +864,19 @@
 			)
 		)
 		(pin "1"
-			(uuid "6cdfab1b-9730-414b-9e1e-60687f5a5d93")
+			(uuid "72158842-f9ec-4d3e-9ea2-c4ee4848148a")
 		)
 		(instances
 			(project "board-design"
 				(path "/bd5d7a3e-3306-4abd-ba38-3ca87df9a9fb"
-					(reference "#FLG01")
+					(reference "#FLG03")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(sheet
-		(at 114.3 114.3)
+		(at 120.65 91.44)
 		(size 25.4 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -764,7 +892,7 @@
 		)
 		(uuid "546e8460-8581-4274-bc8e-d871e6a589aa")
 		(property "Sheetname" "DC-DC-Buck-Converter"
-			(at 114.3 113.5884 0)
+			(at 120.65 90.7284 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -775,7 +903,7 @@
 			)
 		)
 		(property "Sheetfile" "DC-DC-Buck-Converter.kicad_sch"
-			(at 114.3 140.2846 0)
+			(at 120.65 117.4246 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -787,7 +915,7 @@
 			)
 		)
 		(pin "V_INPUT" input
-			(at 114.3 127 180)
+			(at 120.65 104.14 180)
 			(uuid "66611aa1-097f-480c-8ba9-52fe237cd433")
 			(effects
 				(font
@@ -797,7 +925,7 @@
 			)
 		)
 		(pin "V_OUT" output
-			(at 139.7 121.92 0)
+			(at 146.05 99.06 0)
 			(uuid "34e8308c-ad85-4de1-a04a-c3b3d06e8889")
 			(effects
 				(font
@@ -807,7 +935,7 @@
 			)
 		)
 		(pin "GND" output
-			(at 127 139.7 270)
+			(at 133.35 116.84 270)
 			(uuid "9e86ac32-e92c-45df-a256-9ec498a25f1b")
 			(effects
 				(font
@@ -816,8 +944,8 @@
 				(justify left)
 			)
 		)
-		(pin "mcu_input" output
-			(at 139.7 130.81 0)
+		(pin "mcu_output" output
+			(at 146.05 107.95 0)
 			(uuid "f2829e00-b476-4755-af91-81cc49dd63f2")
 			(effects
 				(font
@@ -830,6 +958,73 @@
 			(project "board-design"
 				(path "/bd5d7a3e-3306-4abd-ba38-3ca87df9a9fb"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 152.4 91.44)
+		(size 25.4 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "83805cb0-6408-4c3e-872c-bb8bb3b64b41")
+		(property "Sheetname" "STM32"
+			(at 152.4 90.7284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "stm32.kicad_sch"
+			(at 152.4 117.4246 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "GND" output
+			(at 165.1 116.84 270)
+			(uuid "ec6819e5-480b-47cf-a68e-26e52ffe2491")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "mcu_input" input
+			(at 152.4 107.95 180)
+			(uuid "d6acbffc-3444-4f4f-958d-dbbc37de150a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "board-design"
+				(path "/bd5d7a3e-3306-4abd-ba38-3ca87df9a9fb"
+					(page "4")
 				)
 			)
 		)

@@ -656,7 +656,7 @@
         "uuid": "bd5d7a3e-3306-4abd-ba38-3ca87df9a9fb"
       }
     ],
-    "used_designators": "",
+    "used_designators": "D4",
     "variants": []
   },
   "sheets": [
@@ -671,6 +671,10 @@
     [
       "207d88af-971e-4815-bc86-0eae21ccbe4d",
       "Regulator"
+    ],
+    [
+      "83805cb0-6408-4c3e-872c-bb8bb3b64b41",
+      "STM32"
     ]
   ],
   "text_variables": {},
