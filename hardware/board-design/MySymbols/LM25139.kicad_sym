@@ -1,0 +1,386 @@
+(kicad_symbol_lib
+	(version 20251024)
+	(generator "kicad_symbol_editor")
+	(generator_version "10.0")
+	(symbol "LM25139"
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "U"
+			(at 0 -6.604 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "LM25139_1_1"
+			(rectangle
+				(start -3.81 6.0325)
+				(end 3.81 -5.0799)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type color)
+					(color 194 194 0 1)
+				)
+			)
+			(pin power_in line
+				(at -3.81 5.08 0)
+				(length 0.889)
+				(name "Vin"
+					(effects
+						(font
+							(size 0.381 0.381)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 0.381 0.381)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -3.81 3.81 0)
+				(length 0.889)
+				(name "RT"
+					(effects
+						(font
+							(size 0.381 0.381)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 0.381 0.381)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -3.81 2.54 0)
+				(length 0.889)
+				(name "FPWM/SYNC"
+					(effects
+						(font
+							(size 0.127 0.127)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 0.381 0.381)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -3.81 1.27 0)
+				(length 0.889)
+				(name "AGND"
+					(effects
+						(font
+							(size 0.381 0.381)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 0.381 0.381)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at -3.81 0 0)
+				(length 0.889)
+				(name "COMP"
+					(effects
+						(font
+							(size 0.381 0.381)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 0.381 0.381)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -3.81 -1.27 0)
+				(length 0.889)
+				(name "FB"
+					(effects
+						(font
+							(size 0.381 0.381)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 0.381 0.381)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at -3.81 -2.54 0)
+				(length 0.889)
+				(name "Vout"
+					(effects
+						(font
+							(size 0.381 0.381)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 0.381 0.381)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -3.81 -3.81 0)
+				(length 0.889)
+				(name "ISNS"
+					(effects
+						(font
+							(size 0.381 0.381)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 0.381 0.381)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 3.81 -3.81 180)
+				(length 0.889)
+				(name "PG"
+					(effects
+						(font
+							(size 0.381 0.381)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 0.381 0.381)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 3.81 -2.54 180)
+				(length 0.889)
+				(name "Vcc"
+					(effects
+						(font
+							(size 0.381 0.381)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 0.381 0.381)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 3.81 -1.27 180)
+				(length 0.889)
+				(name "PGND"
+					(effects
+						(font
+							(size 0.381 0.381)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 0.381 0.381)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 3.81 0 180)
+				(length 0.889)
+				(name "LO"
+					(effects
+						(font
+							(size 0.381 0.381)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 0.381 0.381)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 3.81 1.27 180)
+				(length 0.889)
+				(name "SW"
+					(effects
+						(font
+							(size 0.381 0.381)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 0.381 0.381)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 3.81 2.54 180)
+				(length 0.889)
+				(name "HO"
+					(effects
+						(font
+							(size 0.381 0.381)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 0.381 0.381)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 3.81 3.81 180)
+				(length 0.889)
+				(name "CBOOT"
+					(effects
+						(font
+							(size 0.381 0.381)
+						)
+					)
+				)
+				(number "15"
+					(effects
+						(font
+							(size 0.381 0.381)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 3.81 5.08 180)
+				(length 0.889)
+				(name "EN"
+					(effects
+						(font
+							(size 0.381 0.381)
+						)
+					)
+				)
+				(number "16"
+					(effects
+						(font
+							(size 0.381 0.381)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 -5.08 90)
+				(length 0.889)
+				(name "Exposed_Pad"
+					(effects
+						(font
+							(size 0.381 0.381)
+						)
+					)
+				)
+				(number "17"
+					(effects
+						(font
+							(size 0.381 0.381)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+)
