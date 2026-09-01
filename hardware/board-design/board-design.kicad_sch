@@ -418,32 +418,22 @@
 		)
 	)
 	(junction
-		(at 119.38 118.11)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2c3db874-933b-49b9-add7-35ce9c485a88")
-	)
-	(junction
-		(at 148.59 107.95)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "44849088-095c-4d63-ac2c-afc7d5e7f1f9")
-	)
-	(junction
 		(at 116.84 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "56882f24-8eee-45a2-8a17-8cce3bed4764")
 	)
 	(junction
+		(at 119.38 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "93b49a51-f705-4425-80d0-bfd657a47e60")
+	)
+	(junction
 		(at 133.35 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d06878ff-1f7f-4283-b48a-3b999d2bedcc")
-	)
-	(no_connect
-		(at 146.05 99.06)
-		(uuid "0fd5c6d2-73b9-4811-a077-efea8d452316")
 	)
 	(wire
 		(pts
@@ -487,13 +477,13 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 107.95) (xy 148.59 107.95)
+			(xy 146.05 104.14) (xy 152.4 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6da23823-ace1-4c8e-8a53-2ba201a7f36f")
+		(uuid "3050e9dc-d84a-42b7-90ae-930c5265352c")
 	)
 	(wire
 		(pts
@@ -524,16 +514,6 @@
 			(type default)
 		)
 		(uuid "d5afdea8-d0d9-410a-a562-7288d7d56555")
-	)
-	(wire
-		(pts
-			(xy 148.59 107.95) (xy 152.4 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e5bfeb0c-76e0-4653-b374-bbe0b8b6cbff")
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
@@ -795,86 +775,6 @@
 			)
 		)
 	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 148.59 107.95 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e8d7732e-9ea0-4338-86c5-18a6cf572ec5")
-		(property "Reference" "#FLG03"
-			(at 148.59 106.045 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 148.5899 104.14 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 148.59 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 148.59 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 148.59 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "72158842-f9ec-4d3e-9ea2-c4ee4848148a")
-		)
-		(instances
-			(project "board-design"
-				(path "/bd5d7a3e-3306-4abd-ba38-3ca87df9a9fb"
-					(reference "#FLG03")
-					(unit 1)
-				)
-			)
-		)
-	)
 	(sheet
 		(at 120.65 91.44)
 		(size 25.4 25.4)
@@ -925,7 +825,7 @@
 			)
 		)
 		(pin "V_OUT" output
-			(at 146.05 99.06 0)
+			(at 146.05 104.14 0)
 			(uuid "34e8308c-ad85-4de1-a04a-c3b3d06e8889")
 			(effects
 				(font
@@ -942,16 +842,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-		(pin "mcu_output" output
-			(at 146.05 107.95 0)
-			(uuid "f2829e00-b476-4755-af91-81cc49dd63f2")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 		(instances
@@ -1011,9 +901,9 @@
 				(justify left)
 			)
 		)
-		(pin "mcu_input" input
-			(at 152.4 107.95 180)
-			(uuid "d6acbffc-3444-4f4f-958d-dbbc37de150a")
+		(pin "V_IN" input
+			(at 152.4 104.14 180)
+			(uuid "e81eac71-6179-4654-85b9-5a6fc630ad00")
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -606,6 +606,18 @@
           "label": "Manufacturer",
           "name": "Manufacturer",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -656,7 +668,7 @@
         "uuid": "bd5d7a3e-3306-4abd-ba38-3ca87df9a9fb"
       }
     ],
-    "used_designators": "D4",
+    "used_designators": "R_SET_1-2,D4,R1,#FLG2,C_BOOTSTRAP_1,C_BP_5-10,C1,R_GATE_1,R_GATE_3,U1-2,C_Vcc1-5,Rt1,C_BOOT1,C_Comp1,C_HF1,Rcomp1,Rs1,C_out1-4",
     "variants": []
   },
   "sheets": [
@@ -667,10 +679,6 @@
     [
       "546e8460-8581-4274-bc8e-d871e6a589aa",
       "DC-DC-Buck-Converter"
-    ],
-    [
-      "207d88af-971e-4815-bc86-0eae21ccbe4d",
-      "Regulator"
     ],
     [
       "83805cb0-6408-4c3e-872c-bb8bb3b64b41",
