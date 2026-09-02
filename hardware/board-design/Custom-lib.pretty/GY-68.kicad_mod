@@ -1,0 +1,134 @@
+(footprint "GY-68"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "6b701afc-f33a-42c9-9f42-2e7b774c52b7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "GY-68"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "8a4812f6-2f79-4f52-afc1-7e74f39b4aa1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e5e4a777-81fa-4584-ae5a-cd23c98344d1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d5105a4f-a1cc-4770-a963-571782e239ad")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -6.5 -17)
+		(end 6.5 -2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "969f0b9f-4d5d-4fe2-9eae-84cc61581389")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "94072173-f0de-4d8b-87b3-c5090c7cdbc0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -5.25 -15.75)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "7b6a0c5e-3387-46da-a507-ce728d5c3aec")
+	)
+	(pad "2" thru_hole circle
+		(at -2.71 -15.75)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "493ef26b-af51-4249-8021-ae32529e48fc")
+	)
+	(pad "3" thru_hole circle
+		(at -0.17 -15.75)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "2569d5f7-4758-471b-a296-82a397800ccb")
+	)
+	(pad "4" thru_hole circle
+		(at 2.37 -15.75)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "4b8346b9-4bd1-4ba5-a7d3-222982b7e3b8")
+	)
+	(pad "5" thru_hole roundrect
+		(at 4.91 -15.75)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.1470588235)
+		(uuid "a93c246c-8c24-47b4-8503-815363041be1")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/Custom-lib.pretty/AZDelivery GY-68 BMP-180 v4.step"
+		(offset
+			(xyz 0 9.5 0)
+		)
+		(scale
+			(xyz 1.1 1.2 1)
+		)
+		(rotate
+			(xyz -0 -0 -90)
+		)
+	)
+)
