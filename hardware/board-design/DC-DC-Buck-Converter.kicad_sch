@@ -47537,6 +47537,121 @@
 				)
 			)
 		)
+		(symbol "power:PWR_FLAG"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(rectangle
 		(start 107.95 82.55)
@@ -47629,6 +47744,12 @@
 		(uuid "c55dad7e-6961-4dda-8e0b-23ba16089b83")
 	)
 	(junction
+		(at 142.24 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cb160146-187a-4f43-8530-91684ea43988")
+	)
+	(junction
 		(at 162.56 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -47718,7 +47839,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 107.95) (xy 144.78 107.95)
+			(xy 135.89 107.95) (xy 148.59 107.95)
 		)
 		(stroke
 			(width 0)
@@ -48287,6 +48408,16 @@
 		(uuid "d1fd45e0-8f7b-4a4c-b3e0-ce2cad4484ab")
 	)
 	(label "GND"
+		(at 142.24 114.3 0)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+			(justify left bottom)
+		)
+		(uuid "dac45377-16b4-454f-8eb9-cd520b70a521")
+	)
+	(label "GND"
 		(at 170.18 93.98 0)
 		(effects
 			(font
@@ -48297,7 +48428,7 @@
 		(uuid "db101d66-6542-4c5f-9ff6-1330ba2193f5")
 	)
 	(label "GND"
-		(at 144.78 107.95 270)
+		(at 148.59 107.95 270)
 		(effects
 			(font
 				(size 0.635 0.635)
@@ -48392,7 +48523,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 111.76 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -48403,7 +48534,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "embed://Chip_Multilayer_CAT2021_MLCC.pdf"
 			(at 111.76 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -48416,6 +48547,50 @@
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 111.76 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 111.76 106.68 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 111.76 106.68 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 111.76 106.68 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PART NUMBER" "GCM188R72A153KA37D"
+			(at 111.76 106.68 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -48474,7 +48649,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Custom-lib:CAPC6075X690N"
 			(at 167.64 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -48485,7 +48660,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "kicad-embed://mlcc_commercial_megacap_ca_en.pdf"
 			(at 167.64 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -48497,6 +48672,50 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 167.64 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 167.64 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 167.64 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "TDK"
+			(at 167.64 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PART NUMBER" "CAA573X7S2A476M640LH"
 			(at 167.64 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -48553,7 +48772,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0612_1632Metric_Pad1.18x3.40mm_HandSolder"
 			(at 158.75 88.138 90)
 			(hide yes)
 			(show_name no)
@@ -48564,7 +48783,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "kicad-embed://wskw0612.pdf"
 			(at 158.75 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -48577,6 +48796,50 @@
 		)
 		(property "Description" "Resistor"
 			(at 158.75 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 158.75 86.36 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 158.75 86.36 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Vishay"
+			(at 158.75 86.36 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PART NUMBER" "WSKW06123L000FEA"
+			(at 158.75 86.36 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -48688,6 +48951,28 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 151.13 100.33 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 151.13 100.33 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "D"
 			(uuid "f032323f-8c34-4c0c-a74d-6c36f526f23b")
 		)
@@ -48770,8 +49055,8 @@
 				)
 			)
 		)
-		(property "Part Number" "LM25139RGTR"
-			(at 132.08 120.65 0)
+		(property "Manufacturer" "Texas Instruments"
+			(at 132.08 122.428 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -48781,8 +49066,30 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Texas Instruments"
-			(at 132.08 122.428 0)
+		(property "Sim.Device" ""
+			(at 132.08 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 132.08 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PART NUMBER" "LM25139RGTR"
+			(at 132.08 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -48874,7 +49181,7 @@
 			)
 		)
 		(property "Value" "6.04k"
-			(at 118.11 110.236 90)
+			(at 118.11 106.68 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -48883,7 +49190,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 118.11 108.458 90)
 			(hide yes)
 			(show_name no)
@@ -48894,7 +49201,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "kicad-embed://dcrcwe3.pdf"
 			(at 118.11 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -48907,6 +49214,50 @@
 		)
 		(property "Description" "Resistor"
 			(at 118.11 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 118.11 106.68 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 118.11 106.68 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Vishay"
+			(at 118.11 106.68 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PART NUMBER" "CRCW06036K04FKEA"
+			(at 118.11 106.68 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -48998,7 +49349,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata"
+		(property "Manufacturer" "Murata Electronics"
 			(at 127 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -49010,6 +49361,28 @@
 			)
 		)
 		(property "PART NUMBER" "KRM55QR72A106KH01L"
+			(at 127 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 127 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 127 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -49068,7 +49441,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 142.24 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -49079,7 +49452,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "kicad-embed://490_Chip_Multilayer_CAT2021_MLCC.pdf"
 			(at 142.24 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -49091,6 +49464,50 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 142.24 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 142.24 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 142.24 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 142.24 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PART NUMBER" "GRM21BZ71H475KE15L"
 			(at 142.24 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -49149,7 +49566,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 123.19 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -49160,7 +49577,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "kicad-embed://Chip_Multilayer_CAT2021_MLCC.pdf"
 			(at 123.19 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -49182,6 +49599,50 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 123.19 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 123.19 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 123.19 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PART NUMBER" "GRM1885C1H101JA01D"
+			(at 123.19 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "d31d63e9-2817-4edd-ad8c-c1e6ddc17f4e")
 		)
@@ -49192,6 +49653,86 @@
 			(project "board-design"
 				(path "/bd5d7a3e-3306-4abd-ba38-3ca87df9a9fb/546e8460-8581-4274-bc8e-d871e6a589aa"
 					(reference "C_HF1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 142.24 109.22 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "88d5062e-a6a8-4bf5-aa81-0fb046702fd3")
+		(property "Reference" "#FLG02"
+			(at 144.145 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 146.05 109.2199 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 142.24 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 142.24 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 142.24 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "58b1894f-cbee-4c8f-824e-948900b8f61b")
+		)
+		(instances
+			(project "board-design"
+				(path "/bd5d7a3e-3306-4abd-ba38-3ca87df9a9fb/546e8460-8581-4274-bc8e-d871e6a589aa"
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)
@@ -49264,7 +49805,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata"
+		(property "Manufacturer" "Murata Electronics"
 			(at 133.35 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -49276,6 +49817,28 @@
 			)
 		)
 		(property "PART NUMBER" "KRM55QR72A106KH01L"
+			(at 133.35 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 133.35 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 133.35 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -49335,7 +49898,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Custom-lib:CAPC6075X690N"
 			(at 167.64 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -49346,7 +49909,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "kicad-embed://mlcc_commercial_megacap_ca_en.pdf"
 			(at 167.64 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -49358,6 +49921,50 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 167.64 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 167.64 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 167.64 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "TDK"
+			(at 167.64 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PART NUMBER" "CAA573X7S2A476M640LH"
 			(at 167.64 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -49416,7 +50023,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 142.24 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -49427,7 +50034,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "kicad-embed://Chip_Multilayer_CAT2021_MLCC.pdf"
 			(at 142.24 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -49439,6 +50046,50 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 142.24 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 142.24 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PART NUMBER" "GRM188R72A104KA35D"
+			(at 142.24 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 142.24 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 142.24 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -49498,7 +50149,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Custom-lib:CAPC6075X690N"
 			(at 167.64 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -49509,7 +50160,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "kicad-embed://mlcc_commercial_megacap_ca_en.pdf"
 			(at 167.64 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -49521,6 +50172,50 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 167.64 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 167.64 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 167.64 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "TDK"
+			(at 167.64 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PART NUMBER" "CAA573X7S2A476M640LH"
 			(at 167.64 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -49613,7 +50308,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata"
+		(property "Manufacturer" "Murata Electronics"
 			(at 120.65 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -49625,6 +50320,28 @@
 			)
 		)
 		(property "PART NUMBER" "GRM188R72A104KA35D"
+			(at 120.65 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 120.65 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 120.65 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -49684,7 +50401,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Custom-lib:CAPC6075X690N"
 			(at 167.64 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -49695,7 +50412,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "kicad-embed://mlcc_commercial_megacap_ca_en.pdf"
 			(at 167.64 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -49707,6 +50424,50 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 167.64 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 167.64 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 167.64 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "TDK"
+			(at 167.64 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PART NUMBER" "CAA573X7S2A476M640LH"
 			(at 167.64 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -49819,6 +50580,28 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 142.24 88.9 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 142.24 88.9 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "D"
 			(uuid "b96e0393-800d-415e-b9f9-ab834521c9bf")
 		)
@@ -49869,7 +50652,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Custom-lib:WE-HCI_2212"
+		(property "Footprint" "Custom-lib:WE-LHMI_7030"
 			(at 151.13 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -49880,7 +50663,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "kicad-embed://74435581000_inductor.pdf"
+		(property "Datasheet" "kicad-embed://74437346015.pdf"
 			(at 151.13 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -49913,7 +50696,29 @@
 				)
 			)
 		)
-		(property "PART NUMBER" "74435581000"
+		(property "PART NUMBER" "74437346015"
+			(at 151.13 86.36 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 151.13 86.36 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 151.13 86.36 90)
 			(hide yes)
 			(show_name no)
@@ -49951,16 +50756,6 @@
 		(dnp no)
 		(uuid "f87894f7-7175-4fcd-866d-aab85d9e61f9")
 		(property "Reference" "Rt1"
-			(at 121.92 98.044 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.889 0.889)
-				)
-			)
-		)
-		(property "Value" "53.6k"
 			(at 121.92 99.568 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -49970,7 +50765,17 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Value" "53.6k"
+			(at 121.92 101.6 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 121.92 103.378 90)
 			(hide yes)
 			(show_name no)
@@ -49981,7 +50786,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "kicad-embed://dcrcwe3.pdf"
 			(at 121.92 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -49994,6 +50799,50 @@
 		)
 		(property "Description" "Resistor"
 			(at 121.92 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 121.92 101.6 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 121.92 101.6 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Vishay"
+			(at 121.92 101.6 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PART NUMBER" "CRCW060353K6FKEA"
+			(at 121.92 101.6 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

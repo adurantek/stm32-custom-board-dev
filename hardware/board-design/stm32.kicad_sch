@@ -716,6 +716,146 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Display_Graphic:ER_OLEDM0.91_1x-I2C"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2441,6 +2581,30 @@
 			(embedded_fonts no)
 		)
 	)
+	(rectangle
+		(start 109.855 46.99)
+		(end 188.595 158.115)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "32fd98b2-6a85-4499-8e4a-fe75836ec6ac")
+	)
+	(text "STM32"
+		(exclude_from_sim no)
+		(at 185.166 48.514 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "e6656115-2136-479a-a548-b4c9003db93f")
+	)
 	(junction
 		(at 127 73.66)
 		(diameter 0)
@@ -2448,10 +2612,16 @@
 		(uuid "16ee2d44-b43e-4c7f-bfc6-2602bd7e434e")
 	)
 	(junction
-		(at 158.75 96.52)
+		(at 165.1 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "43803f9c-9def-4b3f-915d-ad96a7f2e759")
+		(uuid "33fe1eec-f5ae-4677-b43e-29aa69f14e18")
+	)
+	(junction
+		(at 168.91 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "53f0ba22-27db-40f5-a08f-cf58b888ad3c")
 	)
 	(junction
 		(at 121.92 73.66)
@@ -2460,22 +2630,22 @@
 		(uuid "5ca17722-f7ba-4348-aabf-7a17bda0fe46")
 	)
 	(junction
+		(at 173.99 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "700b162e-e7a7-452b-8f65-0e9ebbdcfc54")
+	)
+	(junction
 		(at 137.16 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "73fe7c5f-38b0-413a-b0d0-0cf84f6713db")
 	)
 	(junction
-		(at 180.34 127)
+		(at 168.91 127)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "757ba536-dc39-4408-b89c-3ec9fd448121")
-	)
-	(junction
-		(at 165.1 99.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c8f446f0-1527-4b78-9bc8-4d959d4f4db3")
 	)
 	(junction
 		(at 121.92 81.28)
@@ -2484,7 +2654,13 @@
 		(uuid "f74781e4-69f2-4324-90bb-74f4bf98bb00")
 	)
 	(junction
-		(at 180.34 129.54)
+		(at 158.75 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f8f3928a-6ec1-477a-91c8-86615a4c6608")
+	)
+	(junction
+		(at 168.91 129.54)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f9688958-7193-4a6c-bd70-a29a31a30dc7")
@@ -2644,7 +2820,7 @@
 		(uuid "e18c0631-6a32-48e5-95e3-16d0394dd08d")
 	)
 	(no_connect
-		(at 177.8 132.08)
+		(at 166.37 132.08)
 		(uuid "e219c475-8ee3-4070-a30d-c97121aa44ec")
 	)
 	(no_connect
@@ -2673,7 +2849,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 127) (xy 182.88 132.08)
+			(xy 171.45 127) (xy 171.45 132.08)
 		)
 		(stroke
 			(width 0)
@@ -2683,7 +2859,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 129.54) (xy 185.42 129.54)
+			(xy 168.91 129.54) (xy 173.99 129.54)
 		)
 		(stroke
 			(width 0)
@@ -2693,7 +2869,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 129.54) (xy 180.34 132.08)
+			(xy 168.91 129.54) (xy 168.91 132.08)
 		)
 		(stroke
 			(width 0)
@@ -2713,13 +2889,33 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 127) (xy 180.34 124.46)
+			(xy 165.1 99.06) (xy 166.37 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b343b2e-0fe1-49b9-9a4b-048746dadc36")
+	)
+	(wire
+		(pts
+			(xy 168.91 127) (xy 168.91 125.73)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "2a0aec28-7dfe-43da-8d73-ed1373193f9d")
+	)
+	(wire
+		(pts
+			(xy 165.1 99.06) (xy 165.1 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39d42328-7a78-459f-b312-35ac9ec487ae")
 	)
 	(wire
 		(pts
@@ -2743,16 +2939,6 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 99.06) (xy 166.37 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4d2a27a6-c339-484b-8e72-0e0f5ecd2bd1")
-	)
-	(wire
-		(pts
 			(xy 111.76 73.66) (xy 111.76 81.28)
 		)
 		(stroke
@@ -2763,7 +2949,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 129.54) (xy 185.42 124.46)
+			(xy 173.99 129.54) (xy 173.99 128.27)
 		)
 		(stroke
 			(width 0)
@@ -2773,7 +2959,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 127) (xy 182.88 127)
+			(xy 168.91 127) (xy 171.45 127)
 		)
 		(stroke
 			(width 0)
@@ -2783,7 +2969,27 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 127) (xy 180.34 127)
+			(xy 165.1 87.63) (xy 158.75 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68aaf1e1-9b29-47a8-937a-c796ad7bae44")
+	)
+	(wire
+		(pts
+			(xy 177.8 125.73) (xy 177.8 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69e5e1e8-c5b5-4c14-9aba-5446a97446bd")
+	)
+	(wire
+		(pts
+			(xy 156.21 127) (xy 168.91 127)
 		)
 		(stroke
 			(width 0)
@@ -2803,13 +3009,43 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 107.95) (xy 165.1 107.95)
+			(xy 173.99 128.27) (xy 173.99 124.46)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a38eb035-137a-4db9-8969-c9ce1aeaa837")
+		(uuid "787e2dd5-8404-486a-aa7a-19c9e5fe4db0")
+	)
+	(wire
+		(pts
+			(xy 168.91 125.73) (xy 168.91 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d515232-e1ff-4adf-a211-f00bbac9db25")
+	)
+	(wire
+		(pts
+			(xy 173.99 128.27) (xy 177.8 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80dc1b8b-c818-40ca-8c04-f0487407e6ec")
+	)
+	(wire
+		(pts
+			(xy 158.75 96.52) (xy 158.75 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e86c43b-7188-4b7d-807d-f4e682cd19d0")
 	)
 	(wire
 		(pts
@@ -2823,13 +3059,23 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 129.54) (xy 180.34 129.54)
+			(xy 156.21 129.54) (xy 168.91 129.54)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "af4b7646-cfce-4748-b29f-03ac5b28c216")
+	)
+	(wire
+		(pts
+			(xy 168.91 125.73) (xy 177.8 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af5e5057-05c2-4027-8913-a7bdc38daeae")
 	)
 	(wire
 		(pts
@@ -2873,6 +3119,16 @@
 	)
 	(wire
 		(pts
+			(xy 177.8 128.27) (xy 177.8 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4e51adb-1010-4a8a-8772-ddf27aae3915")
+	)
+	(wire
+		(pts
 			(xy 111.76 81.28) (xy 121.92 81.28)
 		)
 		(stroke
@@ -2903,7 +3159,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 96.52) (xy 158.75 96.52)
+			(xy 156.21 96.52) (xy 167.64 96.52)
 		)
 		(stroke
 			(width 0)
@@ -2941,36 +3197,6 @@
 		)
 		(uuid "e12b9343-05a0-473e-8bd0-00fa4599b597")
 	)
-	(wire
-		(pts
-			(xy 158.75 96.52) (xy 167.64 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e1f57df0-9653-4ae7-8169-5b3334b624da")
-	)
-	(wire
-		(pts
-			(xy 158.75 96.52) (xy 158.75 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eae8de66-123a-4a83-8385-d3f3e14ca86a")
-	)
-	(wire
-		(pts
-			(xy 165.1 99.06) (xy 165.1 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f57f581a-bdc1-46f1-8be2-d060a4520413")
-	)
 	(label "NRST"
 		(at 127 73.66 180)
 		(effects
@@ -2982,7 +3208,7 @@
 		(uuid "02229cc3-5dbe-4a9f-86da-3fb3ac420c6b")
 	)
 	(label "GND"
-		(at 185.42 132.08 90)
+		(at 173.99 132.08 90)
 		(effects
 			(font
 				(size 0.635 0.635)
@@ -2992,7 +3218,7 @@
 		(uuid "14d595db-8529-4bf9-a1e7-50c69966fc3e")
 	)
 	(label "GND"
-		(at 193.04 114.3 0)
+		(at 181.61 114.3 0)
 		(effects
 			(font
 				(size 0.635 0.635)
@@ -3012,16 +3238,6 @@
 		(uuid "547ca734-ce9a-43d8-b87c-48d94c56058b")
 	)
 	(label "GND"
-		(at 161.29 107.95 0)
-		(effects
-			(font
-				(size 0.635 0.635)
-			)
-			(justify left bottom)
-		)
-		(uuid "5bcfdd6c-6ad0-4db7-898c-a6460dbbf7e9")
-	)
-	(label "GND"
 		(at 182.88 88.9 0)
 		(effects
 			(font
@@ -3030,6 +3246,16 @@
 			(justify left bottom)
 		)
 		(uuid "65492001-5485-44af-93eb-22a2583d792e")
+	)
+	(label "GND"
+		(at 162.56 87.63 180)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+			(justify right bottom)
+		)
+		(uuid "7077af87-ef07-459f-957e-8c27619b73a0")
 	)
 	(label "GND"
 		(at 182.88 93.98 0)
@@ -3083,7 +3309,29 @@
 	)
 	(hierarchical_label "V_IN"
 		(shape input)
-		(at 172.72 114.3 180)
+		(at 185.42 124.46 0)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+			(justify left)
+		)
+		(uuid "10c15f67-3353-4ce0-b64d-a91aab9ffe7b")
+	)
+	(hierarchical_label "V_IN"
+		(shape input)
+		(at 185.42 129.54 0)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+			(justify left)
+		)
+		(uuid "1dc65eae-0c74-453e-88b1-63a9a213c291")
+	)
+	(hierarchical_label "V_IN"
+		(shape input)
+		(at 161.29 114.3 180)
 		(effects
 			(font
 				(size 0.635 0.635)
@@ -3116,7 +3364,7 @@
 	)
 	(hierarchical_label "V_IN"
 		(shape input)
-		(at 187.96 132.08 90)
+		(at 176.53 132.08 90)
 		(effects
 			(font
 				(size 0.635 0.635)
@@ -3213,7 +3461,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata"
+		(property "Manufacturer" "Murata Electronics"
 			(at 137.16 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -3235,6 +3483,28 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 137.16 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 137.16 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "87d6c7ea-8a65-474f-b34b-a7d7a88eea7c")
 		)
@@ -3245,6 +3515,255 @@
 			(project "board-design"
 				(path "/bd5d7a3e-3306-4abd-ba38-3ca87df9a9fb/83805cb0-6408-4c3e-872c-bb8bb3b64b41"
 					(reference "C_BP_11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 181.61 124.46 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1b5e6a70-ca7c-4f8f-a93f-62ae00db752d")
+		(property "Reference" "R1"
+			(at 181.61 122.174 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 181.61 122.428 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 181.61 126.238 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "kicad-embed://dcrcwe3.pdf"
+			(at 181.61 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 181.61 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 181.61 124.46 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 181.61 124.46 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Vishay"
+			(at 181.61 124.46 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PART NUMBER" "CRCW06034K70FKEC"
+			(at 181.61 124.46 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "b8a70b5b-be3f-414c-944e-e5778c19f621")
+		)
+		(pin "1"
+			(uuid "30183064-45a3-4aba-a090-75f23efc315b")
+		)
+		(instances
+			(project "board-design"
+				(path "/bd5d7a3e-3306-4abd-ba38-3ca87df9a9fb/83805cb0-6408-4c3e-872c-bb8bb3b64b41"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_TVS")
+		(at 165.1 91.44 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2410f829-de4a-487a-9f8e-2400925cf987")
+		(property "Reference" "D2"
+			(at 168.91 85.598 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_TVS"
+			(at 168.91 83.82 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 165.1 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "kicad-embed://Littelfuse-TVS-Diode-SMAJ-Datasheet.pdf"
+			(at 165.1 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Bidirectional transient-voltage-suppression diode"
+			(at 165.1 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 165.1 91.44 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 165.1 91.44 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Littelfuse Inc."
+			(at 165.1 91.44 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PART NUMBER" "SMAJ51A"
+			(at 165.1 91.44 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "112ad2fe-4aa9-42ef-9f0c-29497a034e81")
+		)
+		(pin "1"
+			(uuid "473181f5-8353-403c-8a1d-1c1c84fec6b8")
+		)
+		(instances
+			(project "board-design"
+				(path "/bd5d7a3e-3306-4abd-ba38-3ca87df9a9fb/83805cb0-6408-4c3e-872c-bb8bb3b64b41"
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -3316,7 +3835,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata"
+		(property "Manufacturer" "Murata Electronics"
 			(at 130.81 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -3328,6 +3847,28 @@
 			)
 		)
 		(property "PART NUMBER" "GRM188R72A104KA35D"
+			(at 130.81 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 130.81 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 130.81 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -3386,7 +3927,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 121.92 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -3397,7 +3938,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "kicad-embed://Littelfuse-TVS-Diode-SMAJ-Datasheet.pdf"
 			(at 121.92 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -3410,6 +3951,50 @@
 		)
 		(property "Description" "Bidirectional transient-voltage-suppression diode"
 			(at 121.92 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 121.92 77.47 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 121.92 77.47 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Littelfuse Inc."
+			(at 121.92 77.47 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PART NUMBER" "SMAJ51A"
+			(at 121.92 77.47 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3491,6 +4076,50 @@
 			)
 		)
 		(property "Description" "STMicroelectronics Arm Cortex-M0+ MCU, 32KB flash, 12KB RAM, 48 MHz, 2.0-3.6V, 45 GPIO, UFQFPN48"
+			(at 143.51 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 143.51 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 143.51 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "STM"
+			(at 143.51 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PART NUMBER" "STM32C031C6U6"
 			(at 143.51 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -3658,6 +4287,131 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:D_TVS")
+		(at 158.75 91.44 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "40f2965e-a1ea-4a71-8c11-b5327709b096")
+		(property "Reference" "D3"
+			(at 163.322 85.598 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_TVS"
+			(at 163.322 83.82 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 158.75 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "kicad-embed://Littelfuse-TVS-Diode-SMAJ-Datasheet.pdf"
+			(at 158.75 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Bidirectional transient-voltage-suppression diode"
+			(at 158.75 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 158.75 91.44 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 158.75 91.44 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Littelfuse Inc."
+			(at 158.75 91.44 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PART NUMBER" "SMAJ51A"
+			(at 158.75 91.44 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "bf6f97fe-f828-48a8-8ba1-70aa57602009")
+		)
+		(pin "1"
+			(uuid "d5d2502d-42e7-4b03-90f4-33c0ccab825d")
+		)
+		(instances
+			(project "board-design"
+				(path "/bd5d7a3e-3306-4abd-ba38-3ca87df9a9fb/83805cb0-6408-4c3e-872c-bb8bb3b64b41"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 116.84 73.66 0)
 		(unit 1)
@@ -3689,7 +4443,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_B3U-1000P-B"
 			(at 116.84 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -3700,7 +4454,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "kicad-embed://en-b3u.pdf"
 			(at 116.84 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -3722,6 +4476,50 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 116.84 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 116.84 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Aratas"
+			(at 116.84 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PART NUMBER" "B3U-1000P"
+			(at 116.84 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "e7523358-758f-4d42-be8c-3bd4ab6e7a0e")
 		)
@@ -3732,6 +4530,130 @@
 			(project "board-design"
 				(path "/bd5d7a3e-3306-4abd-ba38-3ca87df9a9fb/83805cb0-6408-4c3e-872c-bb8bb3b64b41"
 					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 181.61 129.54 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "81c66b38-1e0a-4942-a8a9-e8557cdf8f52")
+		(property "Reference" "R2"
+			(at 181.61 127 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 181.61 127.508 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 181.61 131.318 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "kicad-embed://dcrcwe3.pdf"
+			(at 181.61 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 181.61 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 181.61 129.54 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 181.61 129.54 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Vishay"
+			(at 181.61 129.54 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PART NUMBER" "CRCW06034K70FKEC"
+			(at 181.61 129.54 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "7a98f905-0ab8-4eac-9222-f0ff051c9a56")
+		)
+		(pin "1"
+			(uuid "2bc7e064-2cea-4b50-bed2-b48bba76d992")
+		)
+		(instances
+			(project "board-design"
+				(path "/bd5d7a3e-3306-4abd-ba38-3ca87df9a9fb/83805cb0-6408-4c3e-872c-bb8bb3b64b41"
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -3803,7 +4725,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata"
+		(property "Manufacturer" "Murata Electronics"
 			(at 127 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -3815,6 +4737,28 @@
 			)
 		)
 		(property "PART NUMBER" "GRM188R72A104KA35D"
+			(at 127 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 127 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 127 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -3850,10 +4794,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "9f684062-bbba-4312-b811-4d573aa963f7")
 		(property "Reference" "J2"
-			(at 176.53 82.55 0)
+			(at 176.53 86.36 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3863,7 +4806,7 @@
 			)
 		)
 		(property "Value" "Conn_02x05_Odd_Even"
-			(at 176.53 85.09 0)
+			(at 186.436 92.71 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3872,7 +4815,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Custom-lib:SAMTEC_FTE-105-01-G-DV"
 			(at 177.8 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -3883,7 +4826,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "kicad-embed://fte_sm.pdf"
 			(at 177.8 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -3895,6 +4838,50 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 177.8 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 177.8 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 177.8 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Samtec Inc."
+			(at 177.8 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PART NUMBER" "FTE-105-01-G-DV"
 			(at 177.8 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -3946,7 +4933,7 @@
 	)
 	(symbol
 		(lib_id "Display_Graphic:ER_OLEDM0.91_1x-I2C")
-		(at 182.88 114.3 90)
+		(at 171.45 114.3 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3956,7 +4943,7 @@
 		(dnp no)
 		(uuid "ac60976d-f12d-4311-be07-7f08e100cb76")
 		(property "Reference" "U2"
-			(at 183.896 103.632 90)
+			(at 172.466 103.632 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3967,7 +4954,7 @@
 			)
 		)
 		(property "Value" "ER_OLEDM0.91_1x-I2C"
-			(at 193.04 105.41 90)
+			(at 181.61 105.41 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3978,7 +4965,7 @@
 			)
 		)
 		(property "Footprint" "Display:ER_OLEDM0.91_1x-I2C"
-			(at 195.58 96.266 0)
+			(at 184.15 96.266 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3988,8 +4975,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.buydisplay.com/download/manual/ER-OLEDM0.91-1_Datasheet.pdf"
-			(at 197.612 71.628 0)
+		(property "Datasheet" "kicad-embed://SSD1306.pdf"
+			(at 186.182 71.628 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4000,7 +4987,51 @@
 			)
 		)
 		(property "Description" "SSD1306 OLED module, 0.91 inch, 128x32, I2C"
-			(at 199.644 87.63 0)
+			(at 188.214 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 171.45 114.3 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 171.45 114.3 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "SOLOMON SYSTECH"
+			(at 171.45 114.3 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PART NUMBER" "SSD1306"
+			(at 171.45 114.3 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4026,87 +5057,6 @@
 			(project "board-design"
 				(path "/bd5d7a3e-3306-4abd-ba38-3ca87df9a9fb/83805cb0-6408-4c3e-872c-bb8bb3b64b41"
 					(reference "U2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_TVS")
-		(at 165.1 104.14 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b5d846ff-d2b3-451e-b51b-20aecbd7f368")
-		(property "Reference" "D3"
-			(at 163.322 109.474 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "D_TVS"
-			(at 163.322 111.252 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 165.1 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 165.1 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Bidirectional transient-voltage-suppression diode"
-			(at 165.1 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "a94a8449-fb8d-4a6f-bec5-55b213012a07")
-		)
-		(pin "1"
-			(uuid "d3d41efd-1680-49fd-9f4c-a076c1e09be6")
-		)
-		(instances
-			(project "board-design"
-				(path "/bd5d7a3e-3306-4abd-ba38-3ca87df9a9fb/83805cb0-6408-4c3e-872c-bb8bb3b64b41"
-					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -4178,7 +5128,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata"
+		(property "Manufacturer" "Murata Electronics"
 			(at 143.51 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -4190,6 +5140,28 @@
 			)
 		)
 		(property "PART NUMBER" "KRM55QR72A106KH01L"
+			(at 143.51 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 143.51 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 143.51 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -4217,7 +5189,7 @@
 	)
 	(symbol
 		(lib_id "MCU_Module:BMP180 GY-68")
-		(at 182.88 135.89 270)
+		(at 171.45 135.89 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4228,7 +5200,7 @@
 		(fields_autoplaced yes)
 		(uuid "d3e1fe4f-78d2-4d95-8b72-3f2e7b2e4c5e")
 		(property "Reference" "U4"
-			(at 191.77 134.6199 90)
+			(at 180.34 134.6199 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4239,7 +5211,7 @@
 			)
 		)
 		(property "Value" "BMP180"
-			(at 191.77 137.1599 90)
+			(at 180.34 137.1599 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4249,8 +5221,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 182.88 135.89 0)
+		(property "Footprint" "Custom-lib:GY-68"
+			(at 171.45 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4260,8 +5232,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 182.88 135.89 0)
+		(property "Datasheet" "kicad-embed://BMP180-DATASHEET.pdf"
+			(at 171.45 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4272,7 +5244,51 @@
 			)
 		)
 		(property "Description" ""
-			(at 182.88 135.89 0)
+			(at 171.45 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 171.45 135.89 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 171.45 135.89 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Bosch"
+			(at 171.45 135.89 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PART NUMBER" "GY-68 BMP180"
+			(at 171.45 135.89 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4301,87 +5317,6 @@
 			(project "board-design"
 				(path "/bd5d7a3e-3306-4abd-ba38-3ca87df9a9fb/83805cb0-6408-4c3e-872c-bb8bb3b64b41"
 					(reference "U4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_TVS")
-		(at 158.75 104.14 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "fa228c6b-7901-4bcf-9a19-c4d38e39811f")
-		(property "Reference" "D2"
-			(at 157.734 109.474 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "D_TVS"
-			(at 157.734 111.252 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 158.75 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 158.75 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Bidirectional transient-voltage-suppression diode"
-			(at 158.75 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "3ba47594-f891-4443-8f20-763245d7a7c8")
-		)
-		(pin "1"
-			(uuid "3cca7b93-3d74-42d9-9842-9537739785f4")
-		)
-		(instances
-			(project "board-design"
-				(path "/bd5d7a3e-3306-4abd-ba38-3ca87df9a9fb/83805cb0-6408-4c3e-872c-bb8bb3b64b41"
-					(reference "D2")
 					(unit 1)
 				)
 			)

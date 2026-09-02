@@ -625,7 +625,7 @@
       "include_excluded_from_bom": true,
       "name": "",
       "sort_asc": false,
-      "sort_field": "PART NUMBER"
+      "sort_field": "Footprint"
     },
     "bus_aliases": {},
     "connection_grid_size": 50.0,
@@ -668,7 +668,7 @@
         "uuid": "bd5d7a3e-3306-4abd-ba38-3ca87df9a9fb"
       }
     ],
-    "used_designators": "U2,U4",
+    "used_designators": "D2-3",
     "variants": []
   },
   "sheets": [
