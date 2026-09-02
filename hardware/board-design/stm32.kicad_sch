@@ -716,6 +716,338 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Display_Graphic:ER_OLEDM0.91_1x-I2C"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "ER_OLEDM0.91_1x-I2C"
+				(at 14.224 -10.668 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Display:ER_OLEDM0.91_1x-I2C"
+				(at 18.034 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.buydisplay.com/download/manual/ER-OLEDM0.91-1_Datasheet.pdf"
+				(at 42.672 -14.732 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "SSD1306 OLED module, 0.91 inch, 128x32, I2C"
+				(at 26.67 -16.764 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "EastRising"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "ER?OLEDM0.91?1x?I2C*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "ER_OLEDM0.91_1x-I2C_1_1"
+				(rectangle
+					(start -7.62 7.62)
+					(end 7.62 -7.62)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin power_in line
+					(at 0 -10.16 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 10.16 270)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input clock
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "MCU_Module:BMP180 GY-68"
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board no)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 0 -8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "BMP180"
+				(at 0 8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "BMP180 GY-68_1_1"
+				(rectangle
+					(start -3.81 7.62)
+					(end 3.81 -7.62)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin power_in line
+					(at -3.81 5.08 0)
+					(length 2.54)
+					(name "Vcc"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -3.81 2.54 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input clock
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -3.81 -2.54 0)
+					(length 2.54)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -3.81 -5.08 0)
+					(length 2.54)
+					(name "3.3V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "MCU_ST_STM32C0:STM32C031C6Ux"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2134,6 +2466,12 @@
 		(uuid "73fe7c5f-38b0-413a-b0d0-0cf84f6713db")
 	)
 	(junction
+		(at 180.34 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "757ba536-dc39-4408-b89c-3ec9fd448121")
+	)
+	(junction
 		(at 165.1 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2144,6 +2482,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f74781e4-69f2-4324-90bb-74f4bf98bb00")
+	)
+	(junction
+		(at 180.34 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f9688958-7193-4a6c-bd70-a29a31a30dc7")
 	)
 	(junction
 		(at 143.51 55.88)
@@ -2228,10 +2572,6 @@
 		(uuid "678cc9b8-2a65-4c66-bd21-85a7af0e943d")
 	)
 	(no_connect
-		(at 156.21 127)
-		(uuid "68c641ef-6954-4812-9ed9-5d1d7ffecca0")
-	)
-	(no_connect
 		(at 130.81 101.6)
 		(uuid "704047ee-f234-4d56-b86e-ae4ae6edab40")
 	)
@@ -2288,10 +2628,6 @@
 		(uuid "aad02267-8d82-4834-95f7-bedbaf1cecb6")
 	)
 	(no_connect
-		(at 156.21 129.54)
-		(uuid "afe7a146-2f78-4436-a9ba-3eda81a2c97b")
-	)
-	(no_connect
 		(at 156.21 101.6)
 		(uuid "b700d3de-5fd9-4731-8162-e609607d2b72")
 	)
@@ -2306,6 +2642,10 @@
 	(no_connect
 		(at 156.21 73.66)
 		(uuid "e18c0631-6a32-48e5-95e3-16d0394dd08d")
+	)
+	(no_connect
+		(at 177.8 132.08)
+		(uuid "e219c475-8ee3-4070-a30d-c97121aa44ec")
 	)
 	(no_connect
 		(at 130.81 71.12)
@@ -2333,6 +2673,36 @@
 	)
 	(wire
 		(pts
+			(xy 182.88 127) (xy 182.88 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00aa048a-c61b-42c6-8827-d7ff9b509a4d")
+	)
+	(wire
+		(pts
+			(xy 180.34 129.54) (xy 185.42 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ac39727-42d8-4767-9b30-724b965b6488")
+	)
+	(wire
+		(pts
+			(xy 180.34 129.54) (xy 180.34 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d8046db-a35f-486c-a891-710f265fb166")
+	)
+	(wire
+		(pts
 			(xy 137.16 48.26) (xy 143.51 48.26)
 		)
 		(stroke
@@ -2340,6 +2710,16 @@
 			(type default)
 		)
 		(uuid "1635eda1-7a5e-4c40-a934-b3c01451cb04")
+	)
+	(wire
+		(pts
+			(xy 180.34 127) (xy 180.34 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a0aec28-7dfe-43da-8d73-ed1373193f9d")
 	)
 	(wire
 		(pts
@@ -2383,6 +2763,36 @@
 	)
 	(wire
 		(pts
+			(xy 185.42 129.54) (xy 185.42 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "607faadb-f151-4b5f-8306-6d78a1cff84a")
+	)
+	(wire
+		(pts
+			(xy 180.34 127) (xy 182.88 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61dc3222-5b0d-4ae5-81ae-90f748541ca6")
+	)
+	(wire
+		(pts
+			(xy 156.21 127) (xy 180.34 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c8081d7-2051-4a5b-904b-231ac05a2b14")
+	)
+	(wire
+		(pts
 			(xy 121.92 73.66) (xy 127 73.66)
 		)
 		(stroke
@@ -2410,6 +2820,16 @@
 			(type default)
 		)
 		(uuid "acf0a884-c645-4864-a4b4-9c8d1ecb0a69")
+	)
+	(wire
+		(pts
+			(xy 156.21 129.54) (xy 180.34 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af4b7646-cfce-4748-b29f-03ac5b28c216")
 	)
 	(wire
 		(pts
@@ -2562,6 +2982,26 @@
 		(uuid "02229cc3-5dbe-4a9f-86da-3fb3ac420c6b")
 	)
 	(label "GND"
+		(at 185.42 132.08 90)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+			(justify left bottom)
+		)
+		(uuid "14d595db-8529-4bf9-a1e7-50c69966fc3e")
+	)
+	(label "GND"
+		(at 193.04 114.3 0)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+			(justify left bottom)
+		)
+		(uuid "280531dc-9e59-48a9-914f-cfed158ba9d0")
+	)
+	(label "GND"
 		(at 143.51 152.4 0)
 		(effects
 			(font
@@ -2643,6 +3083,17 @@
 	)
 	(hierarchical_label "V_IN"
 		(shape input)
+		(at 172.72 114.3 180)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+			(justify right)
+		)
+		(uuid "4bc283e6-83ea-44f5-ad2f-57b1cc88c72d")
+	)
+	(hierarchical_label "V_IN"
+		(shape input)
 		(at 143.51 55.88 0)
 		(effects
 			(font
@@ -2662,6 +3113,17 @@
 			(justify right)
 		)
 		(uuid "694a527a-380f-4eea-9a6f-10469e8181cc")
+	)
+	(hierarchical_label "V_IN"
+		(shape input)
+		(at 187.96 132.08 90)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+			(justify left)
+		)
+		(uuid "94088f63-01cc-4bf5-a161-609770736e30")
 	)
 	(hierarchical_label "GND"
 		(shape output)
@@ -3483,6 +3945,93 @@
 		)
 	)
 	(symbol
+		(lib_id "Display_Graphic:ER_OLEDM0.91_1x-I2C")
+		(at 182.88 114.3 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ac60976d-f12d-4311-be07-7f08e100cb76")
+		(property "Reference" "U2"
+			(at 183.896 103.632 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ER_OLEDM0.91_1x-I2C"
+			(at 193.04 105.41 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Display:ER_OLEDM0.91_1x-I2C"
+			(at 195.58 96.266 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.buydisplay.com/download/manual/ER-OLEDM0.91-1_Datasheet.pdf"
+			(at 197.612 71.628 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "SSD1306 OLED module, 0.91 inch, 128x32, I2C"
+			(at 199.644 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "8cb920b8-d7d9-4d51-ac1f-23da25207999")
+		)
+		(pin "2"
+			(uuid "79e90e25-550c-4444-9454-8b2f46e0e0fe")
+		)
+		(pin "4"
+			(uuid "c1692c14-d46a-409d-91cf-b4e43bce2403")
+		)
+		(pin "1"
+			(uuid "14cf8226-a933-4c4c-ba07-0c06c4895d27")
+		)
+		(instances
+			(project "board-design"
+				(path "/bd5d7a3e-3306-4abd-ba38-3ca87df9a9fb/83805cb0-6408-4c3e-872c-bb8bb3b64b41"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D_TVS")
 		(at 165.1 104.14 90)
 		(unit 1)
@@ -3661,6 +4210,97 @@
 			(project "board-design"
 				(path "/bd5d7a3e-3306-4abd-ba38-3ca87df9a9fb/83805cb0-6408-4c3e-872c-bb8bb3b64b41"
 					(reference "C_BP_12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MCU_Module:BMP180 GY-68")
+		(at 182.88 135.89 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d3e1fe4f-78d2-4d95-8b72-3f2e7b2e4c5e")
+		(property "Reference" "U4"
+			(at 191.77 134.6199 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BMP180"
+			(at 191.77 137.1599 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 182.88 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 182.88 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 182.88 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "624e38d4-6b9c-4843-95bb-b3ad70fba662")
+		)
+		(pin "4"
+			(uuid "15013d5e-62ae-4656-af0a-1cdbc065cfec")
+		)
+		(pin "5"
+			(uuid "0e6b6cda-9ac1-4dc3-a9df-1bf6881626ef")
+		)
+		(pin "1"
+			(uuid "78dd7c4e-8dc1-4478-8723-392657411010")
+		)
+		(pin "2"
+			(uuid "ab2d717b-a190-467a-a43d-c63b5e590d68")
+		)
+		(instances
+			(project "board-design"
+				(path "/bd5d7a3e-3306-4abd-ba38-3ca87df9a9fb/83805cb0-6408-4c3e-872c-bb8bb3b64b41"
+					(reference "U4")
 					(unit 1)
 				)
 			)

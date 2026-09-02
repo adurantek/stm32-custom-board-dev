@@ -668,7 +668,7 @@
         "uuid": "bd5d7a3e-3306-4abd-ba38-3ca87df9a9fb"
       }
     ],
-    "used_designators": "R_SET_1-2,D4,R1,#FLG2,C_BOOTSTRAP_1,C_BP_5-10,C1,R_GATE_1,R_GATE_3,U1-2,C_Vcc1-5,Rt1,C_BOOT1,C_Comp1,C_HF1,Rcomp1,Rs1,C_out1-4",
+    "used_designators": "U2,U4",
     "variants": []
   },
   "sheets": [
