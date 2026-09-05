@@ -494,310 +494,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:Q_NMOS"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "Q"
-				(at 5.08 1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "Q_NMOS"
-				(at 5.08 -1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "N-MOSFET transistor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "NMOS N-MOS"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Q_NMOS_0_1"
-				(polyline
-					(pts
-						(xy 0.254 1.905) (xy 0.254 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 2.286) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0.508) (xy 0.762 -0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.27) (xy 0.762 -2.286)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 1.651 0)
-					(radius 2.794)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 2.54 -1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.921 0.381) (xy 3.683 0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Q_NMOS_1_1"
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -931,6 +627,550 @@
 						(effects
 							(font
 								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "MySymbols:CSD19532Q5B"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "Q"
+				(at -8.89 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "CSD19532Q5B"
+				(at -8.89 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "CSD19532Q5B:TRANS_CSD19532Q5B"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "100-V, N channel NexFET™ power MOSFET, single SON 5 mm x 6 mm, 4.9 mOhm"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "DigiKey_Part_Number" "296-37478-1-ND"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/CSD19532Q5B/Texas+Instruments/view-part/?ref=snap"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "1.05 mm"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Package" "VSON-CLIP-8 Texas Instruments"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/CSD19532Q5B/Texas+Instruments/view-part/?ref=eda"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "PARTREV" "B"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MF" "Texas Instruments"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MP" "CSD19532Q5B"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MANUFACTURER" "Texas Instruments"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(symbol "CSD19532Q5B_0_0"
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 3.175) (xy 0.762 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.54) (xy 0.762 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.54) (xy 3.81 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.762) (xy 0.762 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0) (xy 0.762 -0.762)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.905) (xy 0.762 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -2.54) (xy 0.762 -3.175)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 2.032 0.762) (xy 2.032 -0.762) (xy 1.016 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 2.54)
+					(radius 0.3592)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 0.762 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 3.81 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 -2.54)
+					(radius 0.3592)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 0.508) (xy 3.048 0.254)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 2.54) (xy 3.81 0.508)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 0.508) (xy 3.302 0.508)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 0.508) (xy 3.81 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 0.508) (xy 3.302 -0.254) (xy 4.318 -0.254) (xy 3.81 0.508)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.318 0.508) (xy 3.81 0.508)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.572 0.762) (xy 4.318 0.508)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(hide yes)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(hide yes)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -2.54 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "5_8"
+						(effects
+							(font
+								(size 1.016 1.016)
 							)
 						)
 					)
@@ -1140,7 +1380,7 @@
 						)
 					)
 				)
-				(pin output line
+				(pin input line
 					(at -3.81 -2.54 0)
 					(length 0.889)
 					(name "Vout"
@@ -1212,7 +1452,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin power_in line
 					(at 3.81 -1.27 180)
 					(length 0.889)
 					(name "PGND"
@@ -1320,7 +1560,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin power_in line
 					(at 0 -5.08 90)
 					(length 0.889)
 					(name "Exposed_Pad"
@@ -47655,7 +47895,7 @@
 	)
 	(rectangle
 		(start 107.95 82.55)
-		(end 173.99 117.475)
+		(end 172.72 117.475)
 		(stroke
 			(width 0)
 			(type default)
@@ -47678,16 +47918,28 @@
 		(uuid "125f4ddb-fc1f-4308-9173-16384aa6a139")
 	)
 	(junction
+		(at 165.1 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0672f895-9845-4b8e-b74e-ef8cbf3c7802")
+	)
+	(junction
 		(at 137.16 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2ae7762d-48e5-4a83-9a5b-10f3a49f9420")
 	)
 	(junction
-		(at 165.1 93.98)
+		(at 154.94 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "4015c2b2-984c-4615-a7b0-c1f52e18739b")
+		(uuid "4a633f92-3e5d-40f9-a0fa-4ef59fcf6181")
+	)
+	(junction
+		(at 165.1 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5a0033e1-7e43-4fe2-bf25-58b136c9638b")
 	)
 	(junction
 		(at 133.35 86.36)
@@ -47702,10 +47954,22 @@
 		(uuid "7ad46620-a373-4150-918b-0533d40c0116")
 	)
 	(junction
+		(at 165.1 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7be1f97f-86d5-418c-b632-260253bce4e9")
+	)
+	(junction
 		(at 142.24 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8a951974-3f0b-46c9-9381-cbc00228e438")
+	)
+	(junction
+		(at 165.1 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a1c821db-f1c5-4585-b2e9-ae24be5d28f4")
 	)
 	(junction
 		(at 127 86.36)
@@ -47720,28 +47984,16 @@
 		(uuid "a5a49e8e-0aff-4d9e-af95-9e43323de27d")
 	)
 	(junction
-		(at 147.32 86.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a6b80d3c-5bcb-4730-984a-9e0ea698c0aa")
-	)
-	(junction
 		(at 139.7 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ae926322-b603-4ff3-9baa-b884fc6ff4d7")
 	)
 	(junction
-		(at 165.1 86.36)
+		(at 147.32 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "bb0820b9-7135-43b5-b14e-3f69f0f6c687")
-	)
-	(junction
-		(at 127 93.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c55dad7e-6961-4dda-8e0b-23ba16089b83")
+		(uuid "c6195a2c-af6b-4476-a398-47db4f08cda6")
 	)
 	(junction
 		(at 142.24 109.22)
@@ -47756,36 +48008,14 @@
 		(uuid "cc11af30-f3b0-4f42-aa54-4f5862058923")
 	)
 	(junction
-		(at 154.94 86.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e1f74caf-7b48-4ab3-8880-ca44085b6c0d")
-	)
-	(junction
-		(at 165.1 90.17)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ebb81c3e-b8f3-41ef-a56b-d8bd5e971c41")
-	)
-	(junction
 		(at 137.16 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "fdc36da6-108a-4222-a8f9-97531ee66141")
+		(uuid "d2552f45-555c-47dc-8082-8b87c5f570c9")
 	)
 	(no_connect
 		(at 135.89 110.49)
 		(uuid "cb4b40bc-f753-4177-9f82-adc3a2a546aa")
-	)
-	(wire
-		(pts
-			(xy 165.1 93.98) (xy 165.1 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "03d2f72a-6413-462a-8817-363025a07419")
 	)
 	(wire
 		(pts
@@ -47799,7 +48029,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 95.25) (xy 158.75 115.57)
+			(xy 158.75 92.71) (xy 158.75 115.57)
 		)
 		(stroke
 			(width 0)
@@ -47809,7 +48039,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 96.52) (xy 147.32 96.52)
+			(xy 142.24 92.71) (xy 147.32 92.71)
 		)
 		(stroke
 			(width 0)
@@ -47829,7 +48059,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 97.79) (xy 165.1 93.98)
+			(xy 165.1 100.33) (xy 165.1 96.52)
 		)
 		(stroke
 			(width 0)
@@ -47909,16 +48139,6 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 95.25) (xy 142.24 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4425c08e-2ddd-4ca8-af29-a9076e2b7837")
-	)
-	(wire
-		(pts
 			(xy 121.92 106.68) (xy 123.19 106.68)
 		)
 		(stroke
@@ -47936,6 +48156,16 @@
 			(type default)
 		)
 		(uuid "4dde2b24-b6b8-47f4-b9be-41f0f8d37582")
+	)
+	(wire
+		(pts
+			(xy 165.1 88.9) (xy 165.1 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fc337b2-bd1b-4d96-9faf-b97ef47af3ad")
 	)
 	(wire
 		(pts
@@ -47979,16 +48209,6 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 105.41) (xy 151.13 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "76f189c1-9505-4a71-aa05-51f9e5dfaafd")
-	)
-	(wire
-		(pts
 			(xy 125.73 116.84) (xy 125.73 109.22)
 		)
 		(stroke
@@ -47996,6 +48216,16 @@
 			(type default)
 		)
 		(uuid "77f2fc06-5f4b-463d-8934-fb7de75c8ed4")
+	)
+	(wire
+		(pts
+			(xy 165.1 88.9) (xy 165.1 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c465f69-3e76-42bc-8aed-d12383f6fe9f")
 	)
 	(wire
 		(pts
@@ -48016,6 +48246,16 @@
 			(type default)
 		)
 		(uuid "7e11dc93-0d0c-4220-92c7-b6b44b340b16")
+	)
+	(wire
+		(pts
+			(xy 165.1 92.71) (xy 165.1 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80101ebd-1a74-427e-8f9b-60e43d95afe9")
 	)
 	(wire
 		(pts
@@ -48049,13 +48289,23 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 95.25) (xy 158.75 95.25)
+			(xy 154.94 92.71) (xy 158.75 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "8aa92a95-1e6d-4c71-87ac-cf6054ca9f5f")
+	)
+	(wire
+		(pts
+			(xy 138.43 91.44) (xy 144.78 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e5b2eb3-107a-4f8e-880a-03dbb5833557")
 	)
 	(wire
 		(pts
@@ -48069,36 +48319,6 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 90.17) (xy 165.1 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9066d683-1a13-4302-801e-9f38963070ce")
-	)
-	(wire
-		(pts
-			(xy 142.24 95.25) (xy 142.24 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9295aed5-abdc-4d7f-9b91-ca4c5807d310")
-	)
-	(wire
-		(pts
-			(xy 120.65 93.98) (xy 127 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "92bce7cd-de31-4b0d-9f42-e2d4c3e08899")
-	)
-	(wire
-		(pts
 			(xy 123.19 106.68) (xy 128.27 106.68)
 		)
 		(stroke
@@ -48109,13 +48329,23 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 86.36) (xy 154.94 95.25)
+			(xy 154.94 86.36) (xy 154.94 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "9705e772-b314-405e-af8e-4147e710db28")
+	)
+	(wire
+		(pts
+			(xy 138.43 91.44) (xy 138.43 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b094ab6-9ded-41c8-9d01-6a96878eee60")
 	)
 	(wire
 		(pts
@@ -48136,16 +48366,6 @@
 			(type default)
 		)
 		(uuid "a957a670-a24b-4a8c-b7ac-fdb221e82436")
-	)
-	(wire
-		(pts
-			(xy 127 93.98) (xy 133.35 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ae1617a4-eaf3-4ef0-a393-4207faede0cd")
 	)
 	(wire
 		(pts
@@ -48189,7 +48409,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 97.79) (xy 142.24 96.52)
+			(xy 142.24 97.79) (xy 142.24 92.71)
 		)
 		(stroke
 			(width 0)
@@ -48209,23 +48429,13 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 106.68) (xy 151.13 106.68)
+			(xy 135.89 106.68) (xy 153.67 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "d2483715-21e1-40a2-befc-4ef8c967da84")
-	)
-	(wire
-		(pts
-			(xy 138.43 95.25) (xy 138.43 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d2b022c0-512f-4425-9392-d3aab481ef7b")
 	)
 	(wire
 		(pts
@@ -48239,7 +48449,17 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 96.52) (xy 147.32 86.36)
+			(xy 153.67 106.68) (xy 153.67 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6766180-49af-4f07-843a-ee9075d76579")
+	)
+	(wire
+		(pts
+			(xy 147.32 92.71) (xy 147.32 86.36)
 		)
 		(stroke
 			(width 0)
@@ -48256,6 +48476,16 @@
 			(type default)
 		)
 		(uuid "e0bbd666-5706-4ec4-9689-d1d6e6fc8a43")
+	)
+	(wire
+		(pts
+			(xy 165.1 86.36) (xy 167.64 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1093c30-3147-4a46-858c-42d66ee98cf7")
 	)
 	(wire
 		(pts
@@ -48298,6 +48528,16 @@
 		(uuid "ff8460d9-3395-4009-8a44-bc1caca49a27")
 	)
 	(label "GND"
+		(at 133.35 93.98 0)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+			(justify left bottom)
+		)
+		(uuid "1193c54c-6b91-45dc-89c5-09fadbfc7592")
+	)
+	(label "GND"
 		(at 125.73 105.41 180)
 		(effects
 			(font
@@ -48328,7 +48568,7 @@
 		(uuid "5b3f2484-828d-415f-8236-624212f480b7")
 	)
 	(label "GND"
-		(at 170.18 90.17 0)
+		(at 170.18 92.71 0)
 		(effects
 			(font
 				(size 0.635 0.635)
@@ -48356,6 +48596,16 @@
 			(justify right bottom)
 		)
 		(uuid "9a02be9c-dee6-420e-8462-411a600b9e63")
+	)
+	(label "GND"
+		(at 120.65 93.98 0)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+			(justify left bottom)
+		)
+		(uuid "bbaf9bed-857c-4770-960c-07213cc6d3ec")
 	)
 	(label "GND"
 		(at 167.64 109.22 180)
@@ -48398,7 +48648,7 @@
 		(uuid "c8dbb0f9-d360-4035-9d34-dbce6f453302")
 	)
 	(label "GND"
-		(at 170.18 97.79 0)
+		(at 170.18 100.33 0)
 		(effects
 			(font
 				(size 0.635 0.635)
@@ -48406,6 +48656,16 @@
 			(justify left bottom)
 		)
 		(uuid "d1fd45e0-8f7b-4a4c-b3e0-ce2cad4484ab")
+	)
+	(label "GND"
+		(at 170.18 88.9 0)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+			(justify left bottom)
+		)
+		(uuid "d8e273b8-8daa-404e-8b07-9620d57e01fe")
 	)
 	(label "GND"
 		(at 142.24 114.3 0)
@@ -48418,7 +48678,7 @@
 		(uuid "dac45377-16b4-454f-8eb9-cd520b70a521")
 	)
 	(label "GND"
-		(at 170.18 93.98 0)
+		(at 170.18 96.52 0)
 		(effects
 			(font
 				(size 0.635 0.635)
@@ -48481,7 +48741,7 @@
 	)
 	(hierarchical_label "V_OUT"
 		(shape output)
-		(at 170.18 86.36 0)
+		(at 167.64 86.36 0)
 		(effects
 			(font
 				(size 0.635 0.635)
@@ -48578,17 +48838,6 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata Electronics"
-			(at 111.76 106.68 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "PART NUMBER" "GCM188R72A153KA37D"
 			(at 111.76 106.68 90)
 			(hide yes)
@@ -48617,7 +48866,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 167.64 86.36 90)
+		(at 167.64 88.9 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -48627,7 +48876,7 @@
 		(dnp no)
 		(uuid "12fa25a6-e507-4dfe-920d-7237317ddd9a")
 		(property "Reference" "C_out4"
-			(at 171.45 83.82 0)
+			(at 171.45 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -48639,7 +48888,7 @@
 			)
 		)
 		(property "Value" "47uF"
-			(at 164.084 86.868 0)
+			(at 164.084 87.376 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -48650,7 +48899,7 @@
 			)
 		)
 		(property "Footprint" "Custom-lib:CAPC6075X690N"
-			(at 167.64 86.36 0)
+			(at 167.64 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -48661,7 +48910,7 @@
 			)
 		)
 		(property "Datasheet" "kicad-embed://mlcc_commercial_megacap_ca_en.pdf"
-			(at 167.64 86.36 0)
+			(at 167.64 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -48672,7 +48921,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 167.64 86.36 0)
+			(at 167.64 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -48683,7 +48932,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 167.64 86.36 0)
+			(at 167.64 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -48694,18 +48943,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 167.64 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "TDK"
-			(at 167.64 86.36 0)
+			(at 167.64 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -48716,7 +48954,7 @@
 			)
 		)
 		(property "PART NUMBER" "CAA573X7S2A476M640LH"
-			(at 167.64 86.36 0)
+			(at 167.64 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -48827,17 +49065,6 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Vishay"
-			(at 158.75 86.36 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "PART NUMBER" "WSKW06123L000FEA"
 			(at 158.75 86.36 90)
 			(hide yes)
@@ -48865,140 +49092,13 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Q_NMOS")
-		(at 151.13 100.33 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "40e94c50-a70d-49b2-ae54-0e521c7f22d0")
-		(property "Reference" "Q_LOW_1"
-			(at 151.13 94.996 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.889 0.889)
-				)
-			)
-		)
-		(property "Value" "Q_NMOS"
-			(at 146.05 99.568 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.635 0.635)
-				)
-			)
-		)
-		(property "Footprint" "Package_SON:VSONP-8-1EP_5x6_P1.27mm"
-			(at 148.59 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "file://C:\\Users\\adura\\Desktop\\csd19532q5b.pdf"
-			(at 151.13 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "N-MOSFET transistor"
-			(at 151.13 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Texas Insturements"
-			(at 151.13 100.33 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PART NUMBER" "CSD19532Q5B"
-			(at 151.13 100.33 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 151.13 100.33 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 151.13 100.33 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "D"
-			(uuid "f032323f-8c34-4c0c-a74d-6c36f526f23b")
-		)
-		(pin "S"
-			(uuid "61ad744e-7cc5-4c8a-8540-b9e5484faa73")
-		)
-		(pin "G"
-			(uuid "597a2f9e-86c2-4a45-8b30-fe240495d4ec")
-		)
-		(instances
-			(project "board-design"
-				(path "/bd5d7a3e-3306-4abd-ba38-3ca87df9a9fb/546e8460-8581-4274-bc8e-d871e6a589aa"
-					(reference "Q_LOW_1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "MySymbols:LM25139")
 		(at 132.08 106.68 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
+		(in_bom yes)
+		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "69185f82-3e81-4a0c-9397-b752194a149f")
@@ -49046,17 +49146,6 @@
 		)
 		(property "Description" ""
 			(at 132.08 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Texas Instruments"
-			(at 132.08 122.428 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -49245,17 +49334,6 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Vishay"
-			(at 118.11 106.68 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "PART NUMBER" "CRCW06036K04FKEA"
 			(at 118.11 106.68 90)
 			(hide yes)
@@ -49339,17 +49417,6 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 127 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Murata Electronics"
 			(at 127 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -49496,17 +49563,6 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata Electronics"
-			(at 142.24 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "PART NUMBER" "GRM21BZ71H475KE15L"
 			(at 142.24 111.76 0)
 			(hide yes)
@@ -49534,6 +49590,217 @@
 		)
 	)
 	(symbol
+		(lib_id "MySymbols:CSD19532Q5B")
+		(at 142.24 88.9 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7ae6d20a-9f40-4add-912e-63628628f323")
+		(property "Reference" "Q_HIGH1"
+			(at 142.24 83.566 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(property "Value" "CSD19532Q5B"
+			(at 142.24 82.55 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Custom-lib:TRANS_CSD19532Q5B"
+			(at 142.24 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/csd19532q5b.pdf?ts=1788421885834&ref_url=https%253A%252F%252Fwww.google.com%252F"
+			(at 142.24 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "100-V, N channel NexFET™ power MOSFET, single SON 5 mm x 6 mm, 4.9 mOhm"
+			(at 142.24 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "DigiKey_Part_Number" "296-37478-1-ND"
+			(at 142.24 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/CSD19532Q5B/Texas+Instruments/view-part/?ref=snap"
+			(at 142.24 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "1.05 mm"
+			(at 142.24 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "VSON-CLIP-8 Texas Instruments"
+			(at 142.24 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/CSD19532Q5B/Texas+Instruments/view-part/?ref=eda"
+			(at 142.24 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 142.24 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PARTREV" "B"
+			(at 142.24 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MF" "Texas Instruments"
+			(at 142.24 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "CSD19532Q5B"
+			(at 142.24 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "Texas Instruments"
+			(at 142.24 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "3"
+			(uuid "15fdf57f-f43d-43d2-8f97-b7b8e3bed3f1")
+		)
+		(pin "2"
+			(uuid "bf657df1-fb38-4325-a7ee-db5112200eb5")
+		)
+		(pin "4"
+			(uuid "337c923c-79fc-48c2-8eba-267054620be0")
+		)
+		(pin "1"
+			(uuid "e711b1de-9f1c-4b97-8462-fe3147bc0ddb")
+		)
+		(pin "5_8"
+			(uuid "77be7b08-8211-456d-b010-7e99563180e5")
+		)
+		(instances
+			(project "board-design"
+				(path "/bd5d7a3e-3306-4abd-ba38-3ca87df9a9fb/546e8460-8581-4274-bc8e-d871e6a589aa"
+					(reference "Q_HIGH1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 123.19 109.22 0)
 		(unit 1)
@@ -49545,7 +49812,7 @@
 		(dnp no)
 		(uuid "7de4d347-797b-41f1-856f-f7a8c0732d1a")
 		(property "Reference" "C_HF1"
-			(at 124.714 112.776 0)
+			(at 125.222 112.776 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -49611,17 +49878,6 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 123.19 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Murata Electronics"
 			(at 123.19 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -49805,17 +50061,6 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata Electronics"
-			(at 133.35 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "PART NUMBER" "KRM55QR72A106KH01L"
 			(at 133.35 90.17 0)
 			(hide yes)
@@ -49866,7 +50111,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 167.64 93.98 90)
+		(at 167.64 96.52 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -49876,7 +50121,7 @@
 		(dnp no)
 		(uuid "9a2bd4a6-2def-495a-9c10-25971c57f765")
 		(property "Reference" "C_out2"
-			(at 171.45 93.472 0)
+			(at 171.45 96.012 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -49888,7 +50133,7 @@
 			)
 		)
 		(property "Value" "47uF"
-			(at 164.084 94.742 0)
+			(at 164.084 94.996 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -49899,7 +50144,7 @@
 			)
 		)
 		(property "Footprint" "Custom-lib:CAPC6075X690N"
-			(at 167.64 93.98 0)
+			(at 167.64 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -49910,7 +50155,7 @@
 			)
 		)
 		(property "Datasheet" "kicad-embed://mlcc_commercial_megacap_ca_en.pdf"
-			(at 167.64 93.98 0)
+			(at 167.64 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -49921,7 +50166,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 167.64 93.98 0)
+			(at 167.64 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -49932,7 +50177,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 167.64 93.98 0)
+			(at 167.64 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -49943,18 +50188,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 167.64 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "TDK"
-			(at 167.64 93.98 0)
+			(at 167.64 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -49965,7 +50199,7 @@
 			)
 		)
 		(property "PART NUMBER" "CAA573X7S2A476M640LH"
-			(at 167.64 93.98 0)
+			(at 167.64 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -49991,6 +50225,217 @@
 		)
 	)
 	(symbol
+		(lib_id "MySymbols:CSD19532Q5B")
+		(at 151.13 100.33 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9e27ce15-165a-44e0-89f8-1df4bbe9cd8d")
+		(property "Reference" "Q_LOW1"
+			(at 151.13 94.996 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(property "Value" "CSD19532Q5B"
+			(at 151.13 93.98 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Custom-lib:TRANS_CSD19532Q5B"
+			(at 151.13 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/csd19532q5b.pdf?ts=1788421885834&ref_url=https%253A%252F%252Fwww.google.com%252F"
+			(at 151.13 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "100-V, N channel NexFET™ power MOSFET, single SON 5 mm x 6 mm, 4.9 mOhm"
+			(at 151.13 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "DigiKey_Part_Number" "296-37478-1-ND"
+			(at 151.13 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/CSD19532Q5B/Texas+Instruments/view-part/?ref=snap"
+			(at 151.13 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "1.05 mm"
+			(at 151.13 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "VSON-CLIP-8 Texas Instruments"
+			(at 151.13 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/CSD19532Q5B/Texas+Instruments/view-part/?ref=eda"
+			(at 151.13 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 151.13 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PARTREV" "B"
+			(at 151.13 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MF" "Texas Instruments"
+			(at 151.13 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "CSD19532Q5B"
+			(at 151.13 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "Texas Instruments"
+			(at 151.13 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "3"
+			(uuid "0f78e5f1-9864-4083-9cdb-f301af1ef39e")
+		)
+		(pin "2"
+			(uuid "39fc8bac-043b-4d6c-96c0-49df690e12b8")
+		)
+		(pin "4"
+			(uuid "ef98a163-3c5b-4bfe-ad31-929f44e4b5ad")
+		)
+		(pin "1"
+			(uuid "a9c4a38e-fa2a-46eb-bfa0-7c6a67d68b51")
+		)
+		(pin "5_8"
+			(uuid "e6619dcb-ac7c-459b-9472-b58869d2039c")
+		)
+		(instances
+			(project "board-design"
+				(path "/bd5d7a3e-3306-4abd-ba38-3ca87df9a9fb/546e8460-8581-4274-bc8e-d871e6a589aa"
+					(reference "Q_LOW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 142.24 100.33 0)
 		(unit 1)
@@ -50002,7 +50447,7 @@
 		(dnp no)
 		(uuid "bf27c3ed-04df-4115-b3d9-179fe48f8677")
 		(property "Reference" "C_BOOT1"
-			(at 142.24 102.108 0)
+			(at 142.748 102.108 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -50013,7 +50458,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 142.24 103.632 0)
+			(at 144.018 103.632 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -50046,17 +50491,6 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 142.24 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Murata Electronics"
 			(at 142.24 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -50117,7 +50551,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 167.64 90.17 90)
+		(at 167.64 92.71 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -50127,7 +50561,7 @@
 		(dnp no)
 		(uuid "cad8431f-c2b7-4042-b604-99557baafa1b")
 		(property "Reference" "C_out3"
-			(at 171.45 88.646 0)
+			(at 171.45 91.186 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -50139,7 +50573,7 @@
 			)
 		)
 		(property "Value" "47uF"
-			(at 164.084 90.678 0)
+			(at 164.084 91.186 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -50150,7 +50584,7 @@
 			)
 		)
 		(property "Footprint" "Custom-lib:CAPC6075X690N"
-			(at 167.64 90.17 0)
+			(at 167.64 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -50161,7 +50595,7 @@
 			)
 		)
 		(property "Datasheet" "kicad-embed://mlcc_commercial_megacap_ca_en.pdf"
-			(at 167.64 90.17 0)
+			(at 167.64 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -50172,7 +50606,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 167.64 90.17 0)
+			(at 167.64 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -50183,7 +50617,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 167.64 90.17 0)
+			(at 167.64 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -50194,18 +50628,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 167.64 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "TDK"
-			(at 167.64 90.17 0)
+			(at 167.64 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -50216,7 +50639,7 @@
 			)
 		)
 		(property "PART NUMBER" "CAA573X7S2A476M640LH"
-			(at 167.64 90.17 0)
+			(at 167.64 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -50308,17 +50731,6 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata Electronics"
-			(at 120.65 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "PART NUMBER" "GRM188R72A104KA35D"
 			(at 120.65 90.17 0)
 			(hide yes)
@@ -50369,7 +50781,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 167.64 97.79 90)
+		(at 167.64 100.33 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -50379,7 +50791,7 @@
 		(dnp no)
 		(uuid "d5629426-9255-4eab-9198-0d932dd03c1f")
 		(property "Reference" "C_out1"
-			(at 170.18 98.044 0)
+			(at 170.18 100.584 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -50391,7 +50803,7 @@
 			)
 		)
 		(property "Value" "47uF"
-			(at 164.084 98.552 0)
+			(at 164.084 99.06 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -50402,7 +50814,7 @@
 			)
 		)
 		(property "Footprint" "Custom-lib:CAPC6075X690N"
-			(at 167.64 97.79 0)
+			(at 167.64 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -50413,7 +50825,7 @@
 			)
 		)
 		(property "Datasheet" "kicad-embed://mlcc_commercial_megacap_ca_en.pdf"
-			(at 167.64 97.79 0)
+			(at 167.64 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -50424,7 +50836,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 167.64 97.79 0)
+			(at 167.64 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -50435,7 +50847,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 167.64 97.79 0)
+			(at 167.64 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -50446,18 +50858,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 167.64 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "TDK"
-			(at 167.64 97.79 0)
+			(at 167.64 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -50468,7 +50869,7 @@
 			)
 		)
 		(property "PART NUMBER" "CAA573X7S2A476M640LH"
-			(at 167.64 97.79 0)
+			(at 167.64 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -50488,133 +50889,6 @@
 			(project "board-design"
 				(path "/bd5d7a3e-3306-4abd-ba38-3ca87df9a9fb/546e8460-8581-4274-bc8e-d871e6a589aa"
 					(reference "C_out1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Q_NMOS")
-		(at 142.24 88.9 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "dad3bf7c-0475-43fc-aad0-96d362dbbf2c")
-		(property "Reference" "Q_HIGH_1"
-			(at 142.24 83.566 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.889 0.889)
-				)
-			)
-		)
-		(property "Value" "Q_NMOS"
-			(at 142.24 83.566 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.889 0.889)
-				)
-			)
-		)
-		(property "Footprint" "Package_SON:VSONP-8-1EP_5x6_P1.27mm"
-			(at 139.7 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "file://C:\\Users\\adura\\Desktop\\csd19532q5b.pdf"
-			(at 142.24 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "N-MOSFET transistor"
-			(at 142.24 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Texas Insturements"
-			(at 142.24 88.9 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PART NUMBER" "CSD19532Q5B"
-			(at 142.24 88.9 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 142.24 88.9 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 142.24 88.9 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "D"
-			(uuid "b96e0393-800d-415e-b9f9-ab834521c9bf")
-		)
-		(pin "S"
-			(uuid "06f06215-7ef6-4455-9592-1e63542371d0")
-		)
-		(pin "G"
-			(uuid "dd852b40-85b3-440a-a3fe-6a5aa78b338e")
-		)
-		(instances
-			(project "board-design"
-				(path "/bd5d7a3e-3306-4abd-ba38-3ca87df9a9fb/546e8460-8581-4274-bc8e-d871e6a589aa"
-					(reference "Q_HIGH_1")
 					(unit 1)
 				)
 			)
@@ -50676,17 +50950,6 @@
 		)
 		(property "Description" "Inductor"
 			(at 151.13 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Würth Elektronik"
-			(at 151.13 86.36 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -50820,17 +51083,6 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 121.92 101.6 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Vishay"
 			(at 121.92 101.6 90)
 			(hide yes)
 			(show_name no)
