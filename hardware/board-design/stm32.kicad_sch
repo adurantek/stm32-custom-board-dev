@@ -222,7 +222,7 @@
 							)
 						)
 					)
-					(number "1"
+					(number "01"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -240,7 +240,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number "02"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -258,7 +258,7 @@
 							)
 						)
 					)
-					(number "3"
+					(number "03"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -276,7 +276,7 @@
 							)
 						)
 					)
-					(number "4"
+					(number "04"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -294,7 +294,7 @@
 							)
 						)
 					)
-					(number "5"
+					(number "05"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -312,7 +312,7 @@
 							)
 						)
 					)
-					(number "6"
+					(number "06"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -330,7 +330,7 @@
 							)
 						)
 					)
-					(number "7"
+					(number "07"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -348,7 +348,7 @@
 							)
 						)
 					)
-					(number "8"
+					(number "08"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -366,7 +366,7 @@
 							)
 						)
 					)
-					(number "9"
+					(number "09"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2583,7 +2583,7 @@
 	)
 	(rectangle
 		(start 109.855 46.99)
-		(end 188.595 158.115)
+		(end 189.865 158.115)
 		(stroke
 			(width 0)
 			(type default)
@@ -2612,16 +2612,22 @@
 		(uuid "16ee2d44-b43e-4c7f-bfc6-2602bd7e434e")
 	)
 	(junction
+		(at 168.91 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1e5f22c1-8843-4d02-aaff-0a1fc2312d7b")
+	)
+	(junction
 		(at 165.1 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "33fe1eec-f5ae-4677-b43e-29aa69f14e18")
 	)
 	(junction
-		(at 168.91 125.73)
+		(at 161.29 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "53f0ba22-27db-40f5-a08f-cf58b888ad3c")
+		(uuid "483f3452-f0b3-4930-bf73-32cf47ead289")
 	)
 	(junction
 		(at 121.92 73.66)
@@ -2636,22 +2642,16 @@
 		(uuid "700b162e-e7a7-452b-8f65-0e9ebbdcfc54")
 	)
 	(junction
-		(at 137.16 48.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "73fe7c5f-38b0-413a-b0d0-0cf84f6713db")
-	)
-	(junction
 		(at 168.91 127)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "757ba536-dc39-4408-b89c-3ec9fd448121")
 	)
 	(junction
-		(at 121.92 81.28)
+		(at 181.61 130.81)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "f74781e4-69f2-4324-90bb-74f4bf98bb00")
+		(uuid "d943de86-382c-4b20-b0f1-872d697d22e8")
 	)
 	(junction
 		(at 158.75 96.52)
@@ -2879,16 +2879,6 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 48.26) (xy 143.51 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1635eda1-7a5e-4c40-a934-b3c01451cb04")
-	)
-	(wire
-		(pts
 			(xy 165.1 99.06) (xy 166.37 99.06)
 		)
 		(stroke
@@ -2896,16 +2886,6 @@
 			(type default)
 		)
 		(uuid "1b343b2e-0fe1-49b9-9a4b-048746dadc36")
-	)
-	(wire
-		(pts
-			(xy 168.91 127) (xy 168.91 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2a0aec28-7dfe-43da-8d73-ed1373193f9d")
 	)
 	(wire
 		(pts
@@ -2929,6 +2909,16 @@
 	)
 	(wire
 		(pts
+			(xy 181.61 130.81) (xy 176.53 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4455ae63-f5b9-4358-b9f1-9cb25b8cf9d8")
+	)
+	(wire
+		(pts
 			(xy 127 73.66) (xy 130.81 73.66)
 		)
 		(stroke
@@ -2936,16 +2926,6 @@
 			(type default)
 		)
 		(uuid "4c7ee84c-a20e-48a3-9f1c-98e118a31e0b")
-	)
-	(wire
-		(pts
-			(xy 111.76 73.66) (xy 111.76 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5fb0c23b-f176-4895-83cf-f9b1db36dc44")
 	)
 	(wire
 		(pts
@@ -2979,16 +2959,6 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 125.73) (xy 177.8 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "69e5e1e8-c5b5-4c14-9aba-5446a97446bd")
-	)
-	(wire
-		(pts
 			(xy 156.21 127) (xy 168.91 127)
 		)
 		(stroke
@@ -2996,6 +2966,16 @@
 			(type default)
 		)
 		(uuid "6c8081d7-2051-4a5b-904b-231ac05a2b14")
+	)
+	(wire
+		(pts
+			(xy 168.91 124.46) (xy 168.91 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ef2f00a-062a-4e09-a6c4-dadc4c142c3a")
 	)
 	(wire
 		(pts
@@ -3009,6 +2989,16 @@
 	)
 	(wire
 		(pts
+			(xy 186.69 130.81) (xy 186.69 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "720d9404-af62-4097-88fc-8f9c2394203b")
+	)
+	(wire
+		(pts
 			(xy 173.99 128.27) (xy 173.99 124.46)
 		)
 		(stroke
@@ -3016,16 +3006,6 @@
 			(type default)
 		)
 		(uuid "787e2dd5-8404-486a-aa7a-19c9e5fe4db0")
-	)
-	(wire
-		(pts
-			(xy 168.91 125.73) (xy 168.91 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7d515232-e1ff-4adf-a211-f00bbac9db25")
 	)
 	(wire
 		(pts
@@ -3039,6 +3019,26 @@
 	)
 	(wire
 		(pts
+			(xy 181.61 130.81) (xy 181.61 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b12da87-a29f-4a4a-a300-f77a4a58dcec")
+	)
+	(wire
+		(pts
+			(xy 176.53 130.81) (xy 176.53 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9785dcf2-3fd6-4d18-8418-95c07e96dad0")
+	)
+	(wire
+		(pts
 			(xy 158.75 96.52) (xy 158.75 95.25)
 		)
 		(stroke
@@ -3046,6 +3046,16 @@
 			(type default)
 		)
 		(uuid "9e86c43b-7188-4b7d-807d-f4e682cd19d0")
+	)
+	(wire
+		(pts
+			(xy 186.69 130.81) (xy 181.61 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a54191a2-76de-4599-8fb3-ffd03a7d233d")
 	)
 	(wire
 		(pts
@@ -3069,7 +3079,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 125.73) (xy 177.8 125.73)
+			(xy 168.91 124.46) (xy 177.8 124.46)
 		)
 		(stroke
 			(width 0)
@@ -3089,16 +3099,6 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 48.26) (xy 137.16 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b575a67e-2556-45c0-b643-e4d74e3be7e8")
-	)
-	(wire
-		(pts
 			(xy 167.64 99.06) (xy 167.64 96.52)
 		)
 		(stroke
@@ -3106,36 +3106,6 @@
 			(type default)
 		)
 		(uuid "b61c0e3b-dcdd-456d-aa84-d53bc7a3c8a8")
-	)
-	(wire
-		(pts
-			(xy 121.92 81.28) (xy 127 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b6f855c8-5f50-4f95-807e-17fd4e7e8476")
-	)
-	(wire
-		(pts
-			(xy 177.8 128.27) (xy 177.8 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c4e51adb-1010-4a8a-8772-ddf27aae3915")
-	)
-	(wire
-		(pts
-			(xy 111.76 81.28) (xy 121.92 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c782ac21-cd26-4540-91a9-13fe63ffba43")
 	)
 	(wire
 		(pts
@@ -3179,16 +3149,6 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 55.88) (xy 130.81 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e0ffe60f-d76a-41f8-bcf4-9bbc1981326e")
-	)
-	(wire
-		(pts
 			(xy 168.91 96.52) (xy 168.91 97.79)
 		)
 		(stroke
@@ -3228,6 +3188,36 @@
 		(uuid "280531dc-9e59-48a9-914f-cfed158ba9d0")
 	)
 	(label "GND"
+		(at 181.61 139.7 0)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+			(justify left bottom)
+		)
+		(uuid "28843d4a-7045-4d80-8f4a-85959fb880b4")
+	)
+	(label "GND"
+		(at 121.92 81.28 180)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+			(justify right bottom)
+		)
+		(uuid "51611a7f-2758-46ce-8344-f67172eae066")
+	)
+	(label "GND"
+		(at 143.51 48.26 0)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+			(justify left bottom)
+		)
+		(uuid "51dab02b-bdd0-4c96-bced-233cfc733079")
+	)
+	(label "GND"
 		(at 143.51 152.4 0)
 		(effects
 			(font
@@ -3236,6 +3226,26 @@
 			(justify left bottom)
 		)
 		(uuid "547ca734-ce9a-43d8-b87c-48d94c56058b")
+	)
+	(label "GND"
+		(at 161.29 106.68 180)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+			(justify right bottom)
+		)
+		(uuid "5c06fb74-bcbd-4bb7-b320-ef07ed8367aa")
+	)
+	(label "GND"
+		(at 111.76 73.66 270)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+			(justify right bottom)
+		)
+		(uuid "5c2dafda-8e3d-49bb-9db1-18176b967cc7")
 	)
 	(label "GND"
 		(at 182.88 88.9 0)
@@ -3278,7 +3288,7 @@
 		(uuid "9d3f6cea-256b-43f1-8777-7341e2194502")
 	)
 	(label "GND"
-		(at 140.97 48.26 180)
+		(at 137.16 48.26 180)
 		(effects
 			(font
 				(size 0.635 0.635)
@@ -3298,14 +3308,66 @@
 		(uuid "be0c2a52-181f-45a8-a167-f75e5e999f1c")
 	)
 	(label "GND"
-		(at 124.46 81.28 0)
+		(at 161.29 121.92 0)
 		(effects
 			(font
 				(size 0.635 0.635)
 			)
 			(justify left bottom)
 		)
+		(uuid "e9ef4bff-2a55-4b43-94f0-a1ed271a8625")
+	)
+	(label "GND"
+		(at 186.69 139.7 0)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+			(justify left bottom)
+		)
+		(uuid "ed3ae5c9-5bc9-4bb4-b312-1c5daa140f1a")
+	)
+	(label "GND"
+		(at 130.81 55.88 180)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+			(justify right bottom)
+		)
+		(uuid "f1150a44-fcd6-44e4-aa25-c919f4459cff")
+	)
+	(label "GND"
+		(at 127 81.28 180)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+			(justify right bottom)
+		)
 		(uuid "fbcbe56c-36f6-4c18-b32c-4748b70d52ce")
+	)
+	(hierarchical_label "V_IN"
+		(shape input)
+		(at 186.69 130.81 0)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+			(justify left)
+		)
+		(uuid "01658c71-9223-4846-9621-7337f0d02869")
+	)
+	(hierarchical_label "V_IN"
+		(shape input)
+		(at 185.42 128.27 0)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+			(justify left)
+		)
+		(uuid "1082335d-449b-413a-b57a-7021b979b5fb")
 	)
 	(hierarchical_label "V_IN"
 		(shape input)
@@ -3317,17 +3379,6 @@
 			(justify left)
 		)
 		(uuid "10c15f67-3353-4ce0-b64d-a91aab9ffe7b")
-	)
-	(hierarchical_label "V_IN"
-		(shape input)
-		(at 185.42 129.54 0)
-		(effects
-			(font
-				(size 0.635 0.635)
-			)
-			(justify left)
-		)
-		(uuid "1dc65eae-0c74-453e-88b1-63a9a213c291")
 	)
 	(hierarchical_label "V_IN"
 		(shape input)
@@ -3362,17 +3413,6 @@
 		)
 		(uuid "694a527a-380f-4eea-9a6f-10469e8181cc")
 	)
-	(hierarchical_label "V_IN"
-		(shape input)
-		(at 176.53 132.08 90)
-		(effects
-			(font
-				(size 0.635 0.635)
-			)
-			(justify left)
-		)
-		(uuid "94088f63-01cc-4bf5-a161-609770736e30")
-	)
 	(hierarchical_label "GND"
 		(shape output)
 		(at 143.51 152.4 270)
@@ -3406,8 +3446,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "04b7835b-11f4-4034-8a43-566dd7ee91ba")
-		(property "Reference" "C_BP_11"
+		(property "Reference" "C_STM_3"
 			(at 131.064 50.292 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3461,17 +3502,6 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata Electronics"
-			(at 137.16 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "PART NUMBER" "GRM188R72A104KA35D"
 			(at 137.16 52.07 0)
 			(hide yes)
@@ -3514,7 +3544,7 @@
 		(instances
 			(project "board-design"
 				(path "/bd5d7a3e-3306-4abd-ba38-3ca87df9a9fb/83805cb0-6408-4c3e-872c-bb8bb3b64b41"
-					(reference "C_BP_11")
+					(reference "C_STM_3")
 					(unit 1)
 				)
 			)
@@ -3531,7 +3561,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1b5e6a70-ca7c-4f8f-a93f-62ae00db752d")
-		(property "Reference" "R1"
+		(property "Reference" "R_OpenDrain2"
 			(at 181.61 122.174 90)
 			(hide yes)
 			(show_name no)
@@ -3607,17 +3637,6 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Vishay"
-			(at 181.61 124.46 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "PART NUMBER" "CRCW06034K70FKEC"
 			(at 181.61 124.46 90)
 			(hide yes)
@@ -3638,7 +3657,7 @@
 		(instances
 			(project "board-design"
 				(path "/bd5d7a3e-3306-4abd-ba38-3ca87df9a9fb/83805cb0-6408-4c3e-872c-bb8bb3b64b41"
-					(reference "R1")
+					(reference "R_OpenDrain2")
 					(unit 1)
 				)
 			)
@@ -3732,17 +3751,6 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Littelfuse Inc."
-			(at 165.1 91.44 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "PART NUMBER" "SMAJ51A"
 			(at 165.1 91.44 90)
 			(hide yes)
@@ -3780,8 +3788,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "303f14a1-dbaf-4aa1-8db0-a75b455405d0")
-		(property "Reference" "C_BP_13"
+		(property "Reference" "C_STM_1"
 			(at 124.714 57.912 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3835,17 +3844,6 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata Electronics"
-			(at 130.81 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "PART NUMBER" "GRM188R72A104KA35D"
 			(at 130.81 59.69 0)
 			(hide yes)
@@ -3888,7 +3886,7 @@
 		(instances
 			(project "board-design"
 				(path "/bd5d7a3e-3306-4abd-ba38-3ca87df9a9fb/83805cb0-6408-4c3e-872c-bb8bb3b64b41"
-					(reference "C_BP_13")
+					(reference "C_STM_1")
 					(unit 1)
 				)
 			)
@@ -3972,17 +3970,6 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 121.92 77.47 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Littelfuse Inc."
 			(at 121.92 77.47 90)
 			(hide yes)
 			(show_name no)
@@ -4098,17 +4085,6 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 143.51 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "STM"
 			(at 143.51 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -4374,17 +4350,6 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Littelfuse Inc."
-			(at 158.75 91.44 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "PART NUMBER" "SMAJ51A"
 			(at 158.75 91.44 90)
 			(hide yes)
@@ -4498,17 +4463,6 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Aratas"
-			(at 116.84 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "PART NUMBER" "B3U-1000P"
 			(at 116.84 73.66 0)
 			(hide yes)
@@ -4536,8 +4490,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 181.61 129.54 90)
+		(lib_id "Device:C")
+		(at 161.29 118.11 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4545,9 +4499,32 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "81c66b38-1e0a-4942-a8a9-e8557cdf8f52")
-		(property "Reference" "R2"
-			(at 181.61 127 90)
+		(uuid "77023eb2-6143-45ce-bfb3-bbfa16c8d262")
+		(property "Reference" "C_STM_5"
+			(at 155.194 116.078 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 157.48 120.142 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Custom-lib:CAPC6153X390N"
+			(at 162.2552 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4557,18 +4534,8 @@
 				)
 			)
 		)
-		(property "Value" "4.7k"
-			(at 181.61 127.508 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 181.61 131.318 90)
+		(property "Datasheet" "kicad-embed://KRM55_25V-100V_E.pdf"
+			(at 161.29 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4578,8 +4545,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "kicad-embed://dcrcwe3.pdf"
-			(at 181.61 129.54 0)
+		(property "Description" "Unpolarized capacitor"
+			(at 161.29 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4589,8 +4556,8 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 181.61 129.54 0)
+		(property "PART NUMBER" "KRM55QR72A106KH01L"
+			(at 161.29 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4601,7 +4568,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 181.61 129.54 90)
+			(at 161.29 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4612,7 +4579,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 181.61 129.54 90)
+			(at 161.29 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4622,8 +4589,99 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Vishay"
-			(at 181.61 129.54 90)
+		(pin "2"
+			(uuid "ca1438e5-3ac4-4901-b2f0-b42568cd4ad4")
+		)
+		(pin "1"
+			(uuid "7c89d75e-7cf9-4fa9-bb07-e6d589e158d8")
+		)
+		(instances
+			(project "board-design"
+				(path "/bd5d7a3e-3306-4abd-ba38-3ca87df9a9fb/83805cb0-6408-4c3e-872c-bb8bb3b64b41"
+					(reference "C_STM_5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 181.61 128.27 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "81c66b38-1e0a-4942-a8a9-e8557cdf8f52")
+		(property "Reference" "R_OpenDrain1"
+			(at 181.61 125.73 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 181.61 126.238 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 181.61 130.048 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "kicad-embed://dcrcwe3.pdf"
+			(at 181.61 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 181.61 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 181.61 128.27 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 181.61 128.27 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4634,7 +4692,7 @@
 			)
 		)
 		(property "PART NUMBER" "CRCW06034K70FKEC"
-			(at 181.61 129.54 90)
+			(at 181.61 128.27 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4653,7 +4711,7 @@
 		(instances
 			(project "board-design"
 				(path "/bd5d7a3e-3306-4abd-ba38-3ca87df9a9fb/83805cb0-6408-4c3e-872c-bb8bb3b64b41"
-					(reference "R2")
+					(reference "R_OpenDrain1")
 					(unit 1)
 				)
 			)
@@ -4670,8 +4728,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "973c9179-0795-446b-baef-8072dc16c29c")
-		(property "Reference" "C_BP_14"
+		(property "Reference" "C_STM_2"
 			(at 124.46 75.692 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4725,17 +4784,6 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata Electronics"
-			(at 127 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "PART NUMBER" "GRM188R72A104KA35D"
 			(at 127 77.47 0)
 			(hide yes)
@@ -4778,7 +4826,122 @@
 		(instances
 			(project "board-design"
 				(path "/bd5d7a3e-3306-4abd-ba38-3ca87df9a9fb/83805cb0-6408-4c3e-872c-bb8bb3b64b41"
-					(reference "C_BP_14")
+					(reference "C_STM_2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 181.61 135.89 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "99550de3-38ba-4bf2-9abb-7a008effd460")
+		(property "Reference" "C_STM_7"
+			(at 175.514 133.858 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 182.626 134.366 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Custom-lib:CAPC6153X390N"
+			(at 182.5752 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "kicad-embed://KRM55_25V-100V_E.pdf"
+			(at 181.61 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 181.61 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PART NUMBER" "KRM55QR72A106KH01L"
+			(at 181.61 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 181.61 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 181.61 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "275c7c05-3b0d-4e81-b21f-767f8a65e2b6")
+		)
+		(pin "1"
+			(uuid "4894e2bc-9e5c-4cf1-b4b2-2d2460eb30f9")
+		)
+		(instances
+			(project "board-design"
+				(path "/bd5d7a3e-3306-4abd-ba38-3ca87df9a9fb/83805cb0-6408-4c3e-872c-bb8bb3b64b41"
+					(reference "C_STM_7")
 					(unit 1)
 				)
 			)
@@ -4826,7 +4989,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "kicad-embed://fte_sm.pdf"
+		(property "Datasheet" "https://suddendocs.samtec.com/catalog_english/fte_sm.pdf"
 			(at 177.8 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -4870,17 +5033,6 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Samtec Inc."
-			(at 177.8 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "PART NUMBER" "FTE-105-01-G-DV"
 			(at 177.8 93.98 0)
 			(hide yes)
@@ -4892,34 +5044,34 @@
 				)
 			)
 		)
-		(pin "7"
+		(pin "06"
 			(uuid "3ebc8663-4c11-43df-9956-048cd3d70f22")
 		)
-		(pin "8"
+		(pin "04"
 			(uuid "1fc0aef6-d74a-4bfc-82a0-fac2d1baa5fd")
 		)
-		(pin "1"
+		(pin "09"
 			(uuid "3affbaef-88d9-4188-b667-856ddd8c04ca")
 		)
-		(pin "9"
+		(pin "02"
 			(uuid "c4a91e17-4720-4778-b3cb-d9383eeb82d6")
 		)
-		(pin "3"
+		(pin "05"
 			(uuid "1c90891c-0b51-4a47-a325-3bcae90c2cd9")
 		)
-		(pin "4"
+		(pin "01"
 			(uuid "0f440864-77ba-4a5c-b6e2-51db9456f1b2")
 		)
 		(pin "10"
 			(uuid "2d6b6906-56a5-4f4c-a2b3-2bcb2b8cb493")
 		)
-		(pin "6"
+		(pin "08"
 			(uuid "6b0a25a7-cc3a-4133-a4d5-9cf8c2eae76d")
 		)
-		(pin "2"
+		(pin "07"
 			(uuid "f3455e57-3658-4639-adc4-7d792a387eee")
 		)
-		(pin "5"
+		(pin "03"
 			(uuid "a32cdb75-a6f7-4fe7-8404-f81817a8ba4f")
 		)
 		(instances
@@ -4943,7 +5095,7 @@
 		(dnp no)
 		(uuid "ac60976d-f12d-4311-be07-7f08e100cb76")
 		(property "Reference" "U2"
-			(at 172.466 103.632 90)
+			(at 173.482 103.632 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4954,7 +5106,7 @@
 			)
 		)
 		(property "Value" "ER_OLEDM0.91_1x-I2C"
-			(at 181.61 105.41 90)
+			(at 184.912 105.41 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5019,17 +5171,6 @@
 				)
 			)
 		)
-		(property "Manufacturer" "SOLOMON SYSTECH"
-			(at 171.45 114.3 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "PART NUMBER" "SSD1306"
 			(at 171.45 114.3 90)
 			(hide yes)
@@ -5064,6 +5205,236 @@
 	)
 	(symbol
 		(lib_id "Device:C")
+		(at 186.69 135.89 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "bb5bb59b-9888-4c28-9546-0fd600a6e5cb")
+		(property "Reference" "C_STM_8"
+			(at 189.23 137.668 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 185.674 130.81 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 185.7248 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "kicad-embed://Chip_Multilayer_CAT2021_MLCC.pdf"
+			(at 186.69 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 186.69 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PART NUMBER" "GRM188R72A104KA35D"
+			(at 186.69 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 186.69 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 186.69 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "ec0298d3-d891-4de9-a424-8cf75d7611d7")
+		)
+		(pin "1"
+			(uuid "d1663bf5-714d-42cc-8645-54e69050dcfb")
+		)
+		(instances
+			(project "board-design"
+				(path "/bd5d7a3e-3306-4abd-ba38-3ca87df9a9fb/83805cb0-6408-4c3e-872c-bb8bb3b64b41"
+					(reference "C_STM_8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 161.29 110.49 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "bef3cbb8-0bc3-48db-a50c-c7b6db1ae72c")
+		(property "Reference" "C_STM_6"
+			(at 163.83 112.268 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 161.29 108.458 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 160.3248 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "kicad-embed://Chip_Multilayer_CAT2021_MLCC.pdf"
+			(at 161.29 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 161.29 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PART NUMBER" "GRM188R72A104KA35D"
+			(at 161.29 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 161.29 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 161.29 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "70703158-b6dc-46d1-8e60-33de4fe060ce")
+		)
+		(pin "1"
+			(uuid "fa99a4ac-2be6-424c-ba00-bdaf1e4a4ae6")
+		)
+		(instances
+			(project "board-design"
+				(path "/bd5d7a3e-3306-4abd-ba38-3ca87df9a9fb/83805cb0-6408-4c3e-872c-bb8bb3b64b41"
+					(reference "C_STM_6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
 		(at 143.51 52.07 0)
 		(unit 1)
 		(body_style 1)
@@ -5073,8 +5444,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c91b8c5b-a9e6-4c6a-acc4-d1288a668f9c")
-		(property "Reference" "C_BP_12"
+		(property "Reference" "C_STM_4"
 			(at 137.414 50.038 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5128,17 +5500,6 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata Electronics"
-			(at 143.51 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "PART NUMBER" "KRM55QR72A106KH01L"
 			(at 143.51 52.07 0)
 			(hide yes)
@@ -5181,7 +5542,7 @@
 		(instances
 			(project "board-design"
 				(path "/bd5d7a3e-3306-4abd-ba38-3ca87df9a9fb/83805cb0-6408-4c3e-872c-bb8bb3b64b41"
-					(reference "C_BP_12")
+					(reference "C_STM_4")
 					(unit 1)
 				)
 			)
@@ -5193,14 +5554,13 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
+		(in_bom yes)
+		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d3e1fe4f-78d2-4d95-8b72-3f2e7b2e4c5e")
 		(property "Reference" "U4"
-			(at 180.34 134.6199 90)
+			(at 165.354 141.478 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5211,7 +5571,7 @@
 			)
 		)
 		(property "Value" "BMP180"
-			(at 180.34 137.1599 90)
+			(at 165.354 144.018 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5266,17 +5626,6 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 171.45 135.89 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Bosch"
 			(at 171.45 135.89 90)
 			(hide yes)
 			(show_name no)
